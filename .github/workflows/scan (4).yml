@@ -1,0 +1,64 @@
+name: Raptor Scanner v2
+
+on:
+  schedule:
+    - cron: '30 22 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: 'Forza refresh cache'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create directories
+        run: mkdir -p data/cache data/charts logs
+
+      - name: Force refresh cache
+        if: ${{ github.event.inputs.force_refresh == 'true' }}
+        run: rm -f data/cache/*.json
+
+      - name: Run scanner
+        run: python fetch_and_compute.py
+
+      - name: Mostra log
+        if: always()
+        run: tail -50 logs/run.log 2>/dev/null || echo "Nessun log"
+
+      - name: Commit risultati
+        if: always()
+        run: |
+          git config user.name "raptor-bot"
+          git config user.email "bot@raptor"
+          git add data/signals.json data/signals_history.json data/charts/ logs/run.log
+          git diff --staged --quiet || git commit -m "scan $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Upload log su errore
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-logs
+          path: logs/
+          retention-days: 7
