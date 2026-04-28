@@ -1,1 +1,98 @@
+name: Raptor Scanner v2
 
+on:
+  schedule:
+    # 22:30 UTC = 23:30 CET (ora solare) / 00:30 CEST (ora legale)
+    # Mercati europei chiusi, dati giornalieri completi disponibili
+    - cron: '30 22 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: 'Forza refresh cache (ignora cache esistente)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create directories
+        run: |
+          mkdir -p data/cache
+          mkdir -p logs
+
+      - name: Force refresh cache (se richiesto)
+        if: ${{ github.event.inputs.force_refresh == 'true' }}
+        run: |
+          echo "Force refresh: svuoto cache"
+          rm -f data/cache/*.json
+
+      - name: Run scanner
+        run: python fetch_and_compute.py
+
+      - name: Mostra statistiche
+        if: always()
+        run: |
+          echo "=== STATISTICHE RUN ==="
+          if [ -f data/signals.json ]; then
+            python3 -c "
+import json
+with open('data/signals.json') as f:
+    d = json.load(f)
+m = d['meta']
+print(f'Ticker processati: {m[\"total\"]}')
+print(f'Segnali: {m[\"signal_counts\"]}')
+print(f'Rating: {m[\"rating_counts\"]}')
+print(f'Errori: {len(m[\"errors\"])}')
+print(f'Skip: {len(m[\"skipped\"])}')
+"
+          fi
+          if [ -f data/signals_history.json ]; then
+            python3 -c "
+import json
+with open('data/signals_history.json') as f:
+    h = json.load(f)
+print(f'Ticker in history: {len(h)}')
+total_events = sum(len(v) for v in h.values())
+print(f'Totale eventi history: {total_events}')
+"
+          fi
+          echo "=== LOG ULTIME 30 RIGHE ==="
+          tail -30 logs/run.log 2>/dev/null || echo "No log"
+
+      - name: Commit e push risultati
+        if: always()
+        run: |
+          git config user.name  "raptor-scanner-bot"
+          git config user.email "bot@raptor-scanner"
+          git add data/signals.json data/signals_history.json logs/run.log
+          git diff --staged --quiet || git commit -m "scan: $(date -u '+%Y-%m-%d %H:%M UTC') · $(python3 -c "import json; d=json.load(open('data/signals.json')); print(f\"{d['meta']['total']} ETF · {d['meta']['signal_counts']}\")" 2>/dev/null || echo 'update')"
+          git push
+
+      - name: Upload artifacts (in caso di errore)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-logs
+          path: logs/
+          retention-days: 7
