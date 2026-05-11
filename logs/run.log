@@ -16180,3 +16180,1023 @@
 2026-05-08 23:31:49,142 [INFO] signals_history.json scritto: 545 ticker
 2026-05-08 23:31:49,142 [INFO] === FINE in 211s · OK:545 SKIP:156 ERR:0 ===
 2026-05-08 23:31:49,142 [INFO] Regime distribution: {'LATERALE': 299, 'TRANSIZIONE': 69, 'SLANCIO': 94, 'SALITA': 65, 'RIBASSO': 18}
+2026-05-11 23:28:47,427 [INFO] === RAPTOR SCANNER v2 START 2026-05-12 01:28 CET ===
+2026-05-11 23:28:47,429 [INFO] Universe caricato: 701 ticker
+2026-05-11 23:28:47,430 [INFO] Avvio scansione 701 ticker con 10 thread...
+2026-05-11 23:28:47,575 [WARNING] 3LAD.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LAD.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:47,614 [WARNING] 2GOL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/2GOL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:47,623 [WARNING] 3DAL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3DAL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:47,624 [WARNING] 3JPL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3JPL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:47,628 [WARNING] 2BUL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/2BUL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:47,633 [INFO] [1/701] 18MN.DE → RANGING score:66 H60:0.572 regime:LATERALE
+2026-05-11 23:28:47,633 [INFO] [2/701] 3GOL.MI → RANGING score:58 H60:0.5 regime:TRANSIZIONE
+2026-05-11 23:28:47,663 [INFO] [3/701] 3LAM.MI → BUY2 score:81 H60:0.595 regime:SLANCIO
+2026-05-11 23:28:47,665 [WARNING] 2QQL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/2QQL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:47,666 [INFO] [4/701] 3LAP.MI → BUY3 score:81 H60:0.399 regime:SALITA
+2026-05-11 23:28:47,748 [WARNING] 3LGO.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LGO.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:47,751 [WARNING] 3LJP.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LJP.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:47,765 [WARNING] 3LBA.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LBA.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:47,766 [INFO] [5/701] 3LCO.MI → SELL score:32 H60:0.409 regime:LATERALE
+2026-05-11 23:28:47,841 [INFO] [6/701] 3LMS.MI → RANGING score:24 H60:0.527 regime:TRANSIZIONE
+2026-05-11 23:28:47,903 [WARNING] 3LMT.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LMT.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:49,688 [WARNING] 3LAD.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LAD.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:49,693 [WARNING] 2GOL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/2GOL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:49,708 [WARNING] 3DAL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3DAL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:49,716 [WARNING] 2BUL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/2BUL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:49,728 [WARNING] 2QQL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/2QQL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:49,764 [WARNING] 3JPL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3JPL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:49,831 [WARNING] 3LGO.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LGO.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:49,832 [WARNING] 3LJP.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LJP.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:49,837 [WARNING] 3LBA.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LBA.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:49,964 [WARNING] 3LMT.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LMT.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:53,764 [WARNING] 3LAD.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LAD.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:53,773 [WARNING] 2GOL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/2GOL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:53,789 [WARNING] 3DAL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3DAL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:53,799 [WARNING] 2QQL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/2QQL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:53,801 [WARNING] 2BUL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/2BUL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:53,823 [WARNING] 3JPL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3JPL.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:53,909 [WARNING] 3LBA.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LBA.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:53,910 [WARNING] 3LGO.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LGO.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:53,965 [WARNING] 3LJP.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LJP.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:54,072 [WARNING] 3LMT.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3LMT.MI?interval=1d&period1=1761262127&period2=1778542127&events=history&includeAdjustedClose=true
+2026-05-11 23:28:59,868 [INFO] [13/701] 3LNV.MI → BUY1 score:84 H60:0.465 regime:SALITA
+2026-05-11 23:28:59,904 [WARNING] 3SAM.MI: attempt 1 — 'timestamp'
+2026-05-11 23:28:59,904 [INFO] [14/701] 3LTS.MI → BUY3 score:92 H60:0.356 regime:LATERALE
+2026-05-11 23:28:59,963 [INFO] [17/701] 3OIL.MI → RANGING score:17 H60:0.456 regime:LATERALE
+2026-05-11 23:28:59,964 [INFO] [18/701] 3LNF.MI → SELL score:29 H60:0.493 regime:TRANSIZIONE
+2026-05-11 23:28:59,972 [INFO] [20/701] 3SAP.MI → SELL score:90 H60:0.455 regime:RIBASSO
+2026-05-11 23:28:59,972 [WARNING] 3SGO.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3SGO.MI?interval=1d&period1=1761262139&period2=1778542139&events=history&includeAdjustedClose=true
+2026-05-11 23:29:00,039 [WARNING] 3SML.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3SML.MI?interval=1d&period1=1761262139&period2=1778542139&events=history&includeAdjustedClose=true
+2026-05-11 23:29:00,041 [INFO] [21/701] 3SIL.MI → RANGING score:65 H60:0.417 regime:LATERALE
+2026-05-11 23:29:00,080 [WARNING] 3SMT.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3SMT.MI?interval=1d&period1=1761262139&period2=1778542139&events=history&includeAdjustedClose=true
+2026-05-11 23:29:00,081 [INFO] [23/701] 3SMS.MI → RANGING score:71 H60:0.578 regime:RIBASSO
+2026-05-11 23:29:00,118 [INFO] [24/701] 3SNV.MI → SELL score:94 H60:0.502 regime:RIBASSO
+2026-05-11 23:29:00,147 [INFO] [25/701] 3USL.MI → BUY3 score:83 H60:0.673 regime:SLANCIO
+2026-05-11 23:29:00,147 [INFO] [26/701] 3USS.MI → SELL score:100 H60:0.668 regime:RIBASSO
+2026-05-11 23:29:00,189 [INFO] [27/701] 600X.MI → RANGING score:65 H60:0.551 regime:LATERALE
+2026-05-11 23:29:00,211 [INFO] [28/701] 7USH.DE → SELL score:52 H60:0.44 regime:LATERALE
+2026-05-11 23:29:00,230 [WARNING] AAP2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AAP2.MI?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:00,264 [INFO] [29/701] A01U.MI → SELL score:20 H60:0.516 regime:LATERALE
+2026-05-11 23:29:00,273 [INFO] [30/701] ACT20.MI → RANGING score:54 H60:0.404 regime:LATERALE
+2026-05-11 23:29:00,306 [INFO] [31/701] ACT60.MI → BUY3 score:81 H60:0.406 regime:LATERALE
+2026-05-11 23:29:00,324 [INFO] [32/701] 3STS.MI → SELL score:100 H60:0.366 regime:LATERALE
+2026-05-11 23:29:00,366 [INFO] [33/701] ACTEQ.MI → WATCH score:83 H60:0.401 regime:SALITA
+2026-05-11 23:29:00,385 [INFO] [34/701] ACWI.MI → BUY3 score:83 H60:0.616 regime:SLANCIO
+2026-05-11 23:29:00,400 [INFO] [35/701] ADLU.MI → SELL score:21 H60:0.249 regime:LATERALE
+2026-05-11 23:29:00,435 [INFO] [36/701] AEGE.MI → WATCH score:57 H60:0.48 regime:LATERALE
+2026-05-11 23:29:00,452 [WARNING] AERO.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AERO.DE?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:00,508 [INFO] [37/701] AGED.MI → RANGING score:83 H60:0.482 regime:LATERALE
+2026-05-11 23:29:00,510 [WARNING] AGES.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AGES.MI?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:00,510 [INFO] [38/701] AGEB.MI → BUY1 score:75 H60:0.45 regime:LATERALE
+2026-05-11 23:29:00,528 [INFO] [39/701] ADS.DE → WATCH score:71 H60:0.468 regime:LATERALE
+2026-05-11 23:29:00,591 [WARNING] AGRI.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AGRI.DE?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:00,627 [INFO] [40/701] AGGH.MI → RANGING score:81 H60:0.49 regime:LATERALE
+2026-05-11 23:29:00,629 [INFO] [41/701] AI4UJ.MI → BUY2 score:80 H60:0.191 regime:SALITA
+2026-05-11 23:29:00,696 [WARNING] AIAI.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AIAI.DE?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:00,713 [INFO] [42/701] AIAA.MI → RANGING score:6 H60:0.473 regime:LATERALE
+2026-05-11 23:29:00,794 [INFO] [43/701] AIAI.MI → BUY3 score:86 H60:0.576 regime:SLANCIO
+2026-05-11 23:29:00,873 [INFO] [44/701] AICU.MI → RANGING score:14 H60:0.387 regime:LATERALE
+2026-05-11 23:29:00,960 [INFO] [45/701] AIGA.MI → RANGING score:17 H60:0.508 regime:LATERALE
+2026-05-11 23:29:01,040 [INFO] [46/701] AIGC.MI → RANGING score:17 H60:0.467 regime:LATERALE
+2026-05-11 23:29:01,119 [INFO] [47/701] AIGE.MI → RANGING score:16 H60:0.49 regime:LATERALE
+2026-05-11 23:29:01,194 [INFO] [48/701] AIGG.MI → RANGING score:11 H60:0.452 regime:LATERALE
+2026-05-11 23:29:01,275 [INFO] [49/701] AIGI.MI → RANGING score:59 H60:0.45 regime:LATERALE
+2026-05-11 23:29:01,353 [INFO] [50/701] AIGL.MI → WATCH score:70 H60:0.31 regime:TRANSIZIONE
+2026-05-11 23:29:01,432 [INFO] [51/701] AIGO.MI → RANGING score:16 H60:0.494 regime:LATERALE
+2026-05-11 23:29:01,511 [INFO] [52/701] AIGP.MI → RANGING score:68 H60:0.489 regime:LATERALE
+2026-05-11 23:29:01,592 [INFO] [53/701] AIGS.MI → BUY1 score:68 H60:0.519 regime:LATERALE
+2026-05-11 23:29:01,671 [INFO] [54/701] AINF.MI → BUY3 score:88 H60:0.623 regime:SLANCIO
+2026-05-11 23:29:01,753 [INFO] [55/701] AIQE.MI → BUY3 score:88 H60:0.646 regime:SLANCIO
+2026-05-11 23:29:01,829 [INFO] [56/701] ALAT.MI → BUY1 score:76 H60:0.546 regime:LATERALE
+2026-05-11 23:29:01,907 [INFO] [57/701] ALUM.MI → SELL score:25 H60:0.369 regime:LATERALE
+2026-05-11 23:29:01,984 [WARNING] AMZ2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AMZ2.MI?interval=1d&period1=1761262141&period2=1778542141&events=history&includeAdjustedClose=true
+2026-05-11 23:29:02,024 [WARNING] 3SAM.MI: attempt 2 — 'timestamp'
+2026-05-11 23:29:02,034 [WARNING] 3SGO.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3SGO.MI?interval=1d&period1=1761262139&period2=1778542139&events=history&includeAdjustedClose=true
+2026-05-11 23:29:02,144 [WARNING] 3SMT.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3SMT.MI?interval=1d&period1=1761262139&period2=1778542139&events=history&includeAdjustedClose=true
+2026-05-11 23:29:02,149 [WARNING] 3SML.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3SML.MI?interval=1d&period1=1761262139&period2=1778542139&events=history&includeAdjustedClose=true
+2026-05-11 23:29:02,291 [WARNING] AAP2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AAP2.MI?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:02,514 [WARNING] AERO.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AERO.DE?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:02,573 [WARNING] AGES.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AGES.MI?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:02,657 [WARNING] AGRI.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AGRI.DE?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:02,759 [WARNING] AIAI.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AIAI.DE?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:04,046 [WARNING] AMZ2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AMZ2.MI?interval=1d&period1=1761262141&period2=1778542141&events=history&includeAdjustedClose=true
+2026-05-11 23:29:06,058 [WARNING] 3SAM.MI: attempt 3 — 'timestamp'
+2026-05-11 23:29:06,100 [WARNING] 3SGO.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3SGO.MI?interval=1d&period1=1761262139&period2=1778542139&events=history&includeAdjustedClose=true
+2026-05-11 23:29:06,211 [WARNING] 3SMT.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3SMT.MI?interval=1d&period1=1761262139&period2=1778542139&events=history&includeAdjustedClose=true
+2026-05-11 23:29:06,214 [WARNING] 3SML.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/3SML.MI?interval=1d&period1=1761262139&period2=1778542139&events=history&includeAdjustedClose=true
+2026-05-11 23:29:06,352 [WARNING] AAP2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AAP2.MI?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:06,573 [WARNING] AERO.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AERO.DE?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:06,641 [WARNING] AGES.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AGES.MI?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:06,715 [WARNING] AGRI.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AGRI.DE?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:06,822 [WARNING] AIAI.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AIAI.DE?interval=1d&period1=1761262140&period2=1778542140&events=history&includeAdjustedClose=true
+2026-05-11 23:29:08,105 [WARNING] AMZ2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AMZ2.MI?interval=1d&period1=1761262141&period2=1778542141&events=history&includeAdjustedClose=true
+2026-05-11 23:29:12,135 [INFO] [60/701] ANAU.MI → BUY3 score:85 H60:0.658 regime:SLANCIO
+2026-05-11 23:29:12,203 [INFO] [61/701] APEX.MI → BUY3 score:86 H60:0.546 regime:SALITA
+2026-05-11 23:29:12,222 [INFO] [64/701] AQWA.MI → SELL score:19 H60:0.499 regime:LATERALE
+2026-05-11 23:29:12,373 [INFO] [65/701] ASRD.MI → RANGING score:64 H60:0.625 regime:LATERALE
+2026-05-11 23:29:12,376 [INFO] [67/701] ARMI.MI → SELL score:40 H60:0.206 regime:LATERALE
+2026-05-11 23:29:12,378 [INFO] [68/701] AT1.MI → RANGING score:10 H60:0.325 regime:LATERALE
+2026-05-11 23:29:12,379 [INFO] [69/701] ARMR.MI → SELL score:23 H60:0.476 regime:RIBASSO
+2026-05-11 23:29:12,470 [WARNING] AURA.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AURA.MI?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:12,473 [WARNING] AUTM.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AUTM.DE?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:12,493 [INFO] [70/701] AUHEUA.MI → RANGING score:54 H60:0.52 regime:LATERALE
+2026-05-11 23:29:12,517 [INFO] [71/701] AUCO.MI → RANGING score:63 H60:0.535 regime:LATERALE
+2026-05-11 23:29:12,533 [INFO] [72/701] BATT.MI → BUY3 score:89 H60:0.518 regime:SALITA
+2026-05-11 23:29:12,602 [INFO] [74/701] BBTR.MI → SELL score:36 H60:0.469 regime:LATERALE
+2026-05-11 23:29:12,627 [INFO] [75/701] BCHN.MI → BUY1 score:82 H60:0.459 regime:SALITA
+2026-05-11 23:29:12,644 [INFO] [77/701] BCOM.DE → RANGING score:13 H60:0.469 regime:TRANSIZIONE
+2026-05-11 23:29:12,712 [INFO] [78/701] BEI.DE → RANGING score:66 H60:0.537 regime:RIBASSO
+2026-05-11 23:29:12,712 [WARNING] BFIV.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BFIV.MI?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:12,713 [INFO] [79/701] BENE.MI → RANGING score:15 H60:0.517 regime:LATERALE
+2026-05-11 23:29:12,766 [WARNING] BGRN.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BGRN.MI?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:12,770 [INFO] [81/701] BIODV.MI → RANGING score:18 H60:0.534 regime:LATERALE
+2026-05-11 23:29:12,827 [INFO] [83/701] BIOT.MI → RANGING score:56 H60:0.423 regime:LATERALE
+2026-05-11 23:29:12,844 [INFO] [84/701] BKCH.MI → RANGING score:79 H60:0.396 regime:SALITA
+2026-05-11 23:29:12,870 [INFO] [85/701] BLTH.MI → BUY1 score:81 H60:0.407 regime:SALITA
+2026-05-11 23:29:12,902 [INFO] [86/701] BNK.MI → BUY1 score:77 H60:0.524 regime:LATERALE
+2026-05-11 23:29:12,937 [INFO] [87/701] BNKE.MI → RANGING score:72 H60:0.517 regime:LATERALE
+2026-05-11 23:29:12,954 [WARNING] BOTZ.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BOTZ.DE?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:12,958 [INFO] [88/701] BOLD.DE → RANGING score:55 H60:0.46 regime:LATERALE
+2026-05-11 23:29:12,974 [INFO] [89/701] BOTZ.MI → BUY3 score:85 H60:0.62 regime:TRANSIZIONE
+2026-05-11 23:29:13,008 [INFO] [90/701] BRENT.MI → RANGING score:13 H60:0.494 regime:LATERALE
+2026-05-11 23:29:13,039 [INFO] [91/701] BRES.MI → BUY3 score:92 H60:0.51 regime:LATERALE
+2026-05-11 23:29:13,070 [INFO] [92/701] BRIJ.MI → RANGING score:57 H60:0.469 regime:LATERALE
+2026-05-11 23:29:13,091 [INFO] [93/701] BRND.MI → RANGING score:16 H60:0.509 regime:LATERALE
+2026-05-11 23:29:13,106 [INFO] [94/701] BRNT.MI → RANGING score:14 H60:0.505 regime:LATERALE
+2026-05-11 23:29:13,142 [INFO] [95/701] BTC.MI → RANGING score:78 H60:0.446 regime:TRANSIZIONE
+2026-05-11 23:29:13,167 [INFO] [96/701] BTCE.DE → RANGING score:62 H60:0.277 regime:SALITA
+2026-05-11 23:29:13,200 [INFO] [97/701] BTP10.MI → RANGING score:69 H60:0.44 regime:LATERALE
+2026-05-11 23:29:13,217 [INFO] [98/701] BTECH.MI → RANGING score:17 H60:0.314 regime:LATERALE
+2026-05-11 23:29:13,227 [WARNING] BTPS.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BTPS.MI?interval=1d&period1=1761262153&period2=1778542153&events=history&includeAdjustedClose=true
+2026-05-11 23:29:13,267 [INFO] [99/701] BUG.MI → BUY3 score:84 H60:0.336 regime:TRANSIZIONE
+2026-05-11 23:29:13,303 [INFO] [100/701] C40.MI → RANGING score:65 H60:0.542 regime:LATERALE
+2026-05-11 23:29:13,365 [INFO] [101/701] CAUT.MI → WATCH score:10 H60:0.361 regime:SALITA
+2026-05-11 23:29:13,374 [INFO] [102/701] CARB.MI → RANGING score:63 H60:0.264 regime:LATERALE
+2026-05-11 23:29:13,432 [INFO] [103/701] CBK.DE → RANGING score:70 H60:0.351 regime:LATERALE
+2026-05-11 23:29:13,456 [INFO] [104/701] CBSUSA.MI → SELL score:29 H60:0.343 regime:LATERALE
+2026-05-11 23:29:13,463 [INFO] [105/701] CBUH.DE → BUY3 score:85 H60:0.572 regime:SLANCIO
+2026-05-11 23:29:13,511 [INFO] [106/701] CEB1.DE → RANGING score:53 H60:0.196 regime:LATERALE
+2026-05-11 23:29:13,531 [WARNING] CHIP.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CHIP.DE?interval=1d&period1=1761262153&period2=1778542153&events=history&includeAdjustedClose=true
+2026-05-11 23:29:13,548 [INFO] [107/701] CEB4.DE → RANGING score:28 H60:0.492 regime:LATERALE
+2026-05-11 23:29:13,597 [INFO] [108/701] CHIP.MI → BUY3 score:87 H60:0.622 regime:SLANCIO
+2026-05-11 23:29:13,627 [INFO] [109/701] CHM.MI → RANGING score:66 H60:0.538 regime:LATERALE
+2026-05-11 23:29:13,663 [WARNING] CHRG.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CHRG.DE?interval=1d&period1=1761262153&period2=1778542153&events=history&includeAdjustedClose=true
+2026-05-11 23:29:13,705 [INFO] [110/701] CIBR.MI → BUY2 score:75 H60:0.336 regime:LATERALE
+2026-05-11 23:29:13,781 [INFO] [111/701] CIT.MI → RANGING score:71 H60:0.296 regime:LATERALE
+2026-05-11 23:29:13,856 [INFO] [112/701] CLIP.MI → SELL score:20 H60:0.518 regime:LATERALE
+2026-05-11 23:29:13,940 [INFO] [113/701] CLOD.DE → WATCH score:67 H60:0.392 regime:SALITA
+2026-05-11 23:29:14,014 [INFO] [114/701] CLOU.MI → BUY2 score:74 H60:0.329 regime:LATERALE
+2026-05-11 23:29:14,094 [INFO] [115/701] CMOD.MI → RANGING score:15 H60:0.462 regime:LATERALE
+2026-05-11 23:29:14,181 [INFO] [117/701] CO2.MI → RANGING score:64 H60:0.262 regime:LATERALE
+2026-05-11 23:29:14,195 [INFO] [118/701] COFF.MI → SELL score:24 H60:0.367 regime:LATERALE
+2026-05-11 23:29:14,255 [WARNING] COIN2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/COIN2.MI?interval=1d&period1=1761262154&period2=1778542154&events=history&includeAdjustedClose=true
+2026-05-11 23:29:14,328 [INFO] [119/701] COMO.MI → WATCH score:68 H60:0.415 regime:TRANSIZIONE
+2026-05-11 23:29:14,403 [INFO] [120/701] COPA.MI → RANGING score:77 H60:0.501 regime:LATERALE
+2026-05-11 23:29:14,485 [INFO] [121/701] COPM.MI → BUY2 score:86 H60:0.533 regime:LATERALE
+2026-05-11 23:29:14,577 [WARNING] AUTM.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AUTM.DE?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:14,579 [WARNING] AURA.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AURA.MI?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:14,580 [INFO] [122/701] COPX.MI → RANGING score:68 H60:0.52 regime:LATERALE
+2026-05-11 23:29:14,657 [INFO] [123/701] CORN.MI → RANGING score:9 H60:0.516 regime:LATERALE
+2026-05-11 23:29:14,770 [WARNING] BFIV.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BFIV.MI?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:14,795 [INFO] [124/701] COTN.MI → WATCH score:82 H60:0.164 regime:SALITA
+2026-05-11 23:29:14,871 [INFO] [125/701] CROP.MI → RANGING score:34 H60:0.203 regime:TRANSIZIONE
+2026-05-11 23:29:14,885 [WARNING] BGRN.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BGRN.MI?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:14,951 [INFO] [126/701] CRUD.MI → RANGING score:14 H60:0.503 regime:LATERALE
+2026-05-11 23:29:15,023 [WARNING] CSH2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CSH2.MI?interval=1d&period1=1761262154&period2=1778542154&events=history&includeAdjustedClose=true
+2026-05-11 23:29:15,027 [WARNING] BOTZ.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BOTZ.DE?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:15,289 [WARNING] BTPS.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BTPS.MI?interval=1d&period1=1761262153&period2=1778542153&events=history&includeAdjustedClose=true
+2026-05-11 23:29:15,590 [WARNING] CHIP.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CHIP.DE?interval=1d&period1=1761262153&period2=1778542153&events=history&includeAdjustedClose=true
+2026-05-11 23:29:15,723 [WARNING] CHRG.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CHRG.DE?interval=1d&period1=1761262153&period2=1778542153&events=history&includeAdjustedClose=true
+2026-05-11 23:29:16,323 [WARNING] COIN2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/COIN2.MI?interval=1d&period1=1761262154&period2=1778542154&events=history&includeAdjustedClose=true
+2026-05-11 23:29:17,085 [WARNING] CSH2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CSH2.MI?interval=1d&period1=1761262154&period2=1778542154&events=history&includeAdjustedClose=true
+2026-05-11 23:29:18,648 [WARNING] AUTM.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AUTM.DE?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:18,650 [WARNING] AURA.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/AURA.MI?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:18,832 [WARNING] BFIV.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BFIV.MI?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:18,943 [WARNING] BGRN.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BGRN.MI?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:19,085 [WARNING] BOTZ.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BOTZ.DE?interval=1d&period1=1761262152&period2=1778542152&events=history&includeAdjustedClose=true
+2026-05-11 23:29:19,354 [WARNING] BTPS.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/BTPS.MI?interval=1d&period1=1761262153&period2=1778542153&events=history&includeAdjustedClose=true
+2026-05-11 23:29:19,654 [WARNING] CHIP.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CHIP.DE?interval=1d&period1=1761262153&period2=1778542153&events=history&includeAdjustedClose=true
+2026-05-11 23:29:19,783 [WARNING] CHRG.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CHRG.DE?interval=1d&period1=1761262153&period2=1778542153&events=history&includeAdjustedClose=true
+2026-05-11 23:29:20,384 [WARNING] COIN2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/COIN2.MI?interval=1d&period1=1761262154&period2=1778542154&events=history&includeAdjustedClose=true
+2026-05-11 23:29:21,145 [WARNING] CSH2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CSH2.MI?interval=1d&period1=1761262154&period2=1778542154&events=history&includeAdjustedClose=true
+2026-05-11 23:29:24,728 [WARNING] CSPX.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CSPX.MI?interval=1d&period1=1761262164&period2=1778542164&events=history&includeAdjustedClose=true
+2026-05-11 23:29:24,788 [INFO] [129/701] CSSPX.MI → BUY3 score:85 H60:0.666 regime:SLANCIO
+2026-05-11 23:29:24,867 [INFO] [131/701] CSUS.MI → BUY3 score:85 H60:0.661 regime:SLANCIO
+2026-05-11 23:29:24,921 [INFO] [132/701] CTEK.MI → BUY2 score:77 H60:0.453 regime:SALITA
+2026-05-11 23:29:24,943 [INFO] [133/701] CURE.MI → SELL score:20 H60:0.274 regime:LATERALE
+2026-05-11 23:29:24,981 [WARNING] CUSA.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CUSA.MI?interval=1d&period1=1761262164&period2=1778542164&events=history&includeAdjustedClose=true
+2026-05-11 23:29:25,017 [WARNING] CYBE.DE: attempt 1 — 'timestamp'
+2026-05-11 23:29:25,036 [INFO] [135/701] CW8.MI → BUY3 score:83 H60:0.626 regime:SLANCIO
+2026-05-11 23:29:25,113 [INFO] [137/701] CYBR.MI → BUY3 score:94 H60:0.303 regime:TRANSIZIONE
+2026-05-11 23:29:25,169 [INFO] [138/701] D5BI.DE → RANGING score:73 H60:0.513 regime:LATERALE
+2026-05-11 23:29:25,179 [WARNING] DAPP.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DAPP.DE?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:25,318 [INFO] [139/701] DAPP.MI → RANGING score:78 H60:0.375 regime:SALITA
+2026-05-11 23:29:25,435 [INFO] [141/701] DBZB.DE → RANGING score:61 H60:0.391 regime:LATERALE
+2026-05-11 23:29:25,454 [INFO] [142/701] DB1.DE → SELL score:21 H60:0.386 regime:RIBASSO
+2026-05-11 23:29:25,533 [WARNING] DFEN.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DFEN.MI?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:25,533 [INFO] [143/701] DEFS.MI → RANGING score:20 H60:0.19 regime:TRANSIZIONE
+2026-05-11 23:29:25,614 [INFO] [144/701] DFNS.MI → SELL score:31 H60:0.395 regime:RIBASSO
+2026-05-11 23:29:25,694 [INFO] [146/701] DFSV.DE → RANGING score:15 H60:0.206 regime:TRANSIZIONE
+2026-05-11 23:29:25,753 [WARNING] DNA.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DNA.MI?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:25,753 [INFO] [147/701] DJE.MI → RANGING score:59 H60:0.6 regime:SLANCIO
+2026-05-11 23:29:25,829 [INFO] [149/701] DOCT.MI → RANGING score:42 H60:0.331 regime:LATERALE
+2026-05-11 23:29:25,845 [WARNING] DRIV.DE: attempt 1 — 'timestamp'
+2026-05-11 23:29:25,908 [INFO] [150/701] DRVE.MI → BUY3 score:88 H60:0.608 regime:SLANCIO
+2026-05-11 23:29:25,969 [WARNING] DTLA.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DTLA.MI?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:26,446 [WARNING] DTLAH.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DTLAH.MI?interval=1d&period1=1761262166&period2=1778542166&events=history&includeAdjustedClose=true
+2026-05-11 23:29:26,796 [WARNING] CSPX.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CSPX.MI?interval=1d&period1=1761262164&period2=1778542164&events=history&includeAdjustedClose=true
+2026-05-11 23:29:27,043 [WARNING] CUSA.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CUSA.MI?interval=1d&period1=1761262164&period2=1778542164&events=history&includeAdjustedClose=true
+2026-05-11 23:29:27,137 [WARNING] CYBE.DE: attempt 2 — 'timestamp'
+2026-05-11 23:29:27,205 [WARNING] DX3L.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DX3L.MI?interval=1d&period1=1761262167&period2=1778542167&events=history&includeAdjustedClose=true
+2026-05-11 23:29:27,243 [WARNING] DAPP.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DAPP.DE?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:27,593 [WARNING] DFEN.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DFEN.MI?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:27,812 [WARNING] DNA.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DNA.MI?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:27,908 [WARNING] DRIV.DE: attempt 2 — 'timestamp'
+2026-05-11 23:29:28,028 [WARNING] DTLA.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DTLA.MI?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:28,506 [WARNING] DTLAH.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DTLAH.MI?interval=1d&period1=1761262166&period2=1778542166&events=history&includeAdjustedClose=true
+2026-05-11 23:29:29,264 [WARNING] DX3L.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DX3L.MI?interval=1d&period1=1761262167&period2=1778542167&events=history&includeAdjustedClose=true
+2026-05-11 23:29:30,860 [WARNING] CSPX.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CSPX.MI?interval=1d&period1=1761262164&period2=1778542164&events=history&includeAdjustedClose=true
+2026-05-11 23:29:31,106 [WARNING] CUSA.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CUSA.MI?interval=1d&period1=1761262164&period2=1778542164&events=history&includeAdjustedClose=true
+2026-05-11 23:29:31,200 [WARNING] CYBE.DE: attempt 3 — 'timestamp'
+2026-05-11 23:29:31,301 [WARNING] DAPP.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DAPP.DE?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:31,655 [WARNING] DFEN.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DFEN.MI?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:31,933 [WARNING] DNA.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DNA.MI?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:31,971 [WARNING] DRIV.DE: attempt 3 — 'timestamp'
+2026-05-11 23:29:32,092 [WARNING] DTLA.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DTLA.MI?interval=1d&period1=1761262165&period2=1778542165&events=history&includeAdjustedClose=true
+2026-05-11 23:29:32,567 [WARNING] DTLAH.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DTLAH.MI?interval=1d&period1=1761262166&period2=1778542166&events=history&includeAdjustedClose=true
+2026-05-11 23:29:33,373 [WARNING] DX3L.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DX3L.MI?interval=1d&period1=1761262167&period2=1778542167&events=history&includeAdjustedClose=true
+2026-05-11 23:29:36,922 [WARNING] DX3S.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DX3S.MI?interval=1d&period1=1761262176&period2=1778542176&events=history&includeAdjustedClose=true
+2026-05-11 23:29:37,188 [INFO] [155/701] DXJF.MI → BUY2 score:86 H60:0.395 regime:LATERALE
+2026-05-11 23:29:37,269 [INFO] [157/701] EBIZ.MI → SELL score:30 H60:0.389 regime:LATERALE
+2026-05-11 23:29:37,286 [INFO] [158/701] EBUY.MI → BUY2 score:76 H60:0.633 regime:SLANCIO
+2026-05-11 23:29:37,370 [INFO] [160/701] ECO.MI → SELL score:30 H60:0.285 regime:LATERALE
+2026-05-11 23:29:37,392 [INFO] [161/701] ECR1.MI → BUY2 score:72 H60:0.517 regime:SALITA
+2026-05-11 23:29:37,410 [INFO] [162/701] ECAR.MI → BUY3 score:89 H60:0.665 regime:SLANCIO
+2026-05-11 23:29:37,467 [INFO] [163/701] EDOC.MI → BUY1 score:76 H60:0.275 regime:LATERALE
+2026-05-11 23:29:37,492 [INFO] [164/701] EEA.MI → SELL score:36 H60:0.526 regime:LATERALE
+2026-05-11 23:29:37,558 [INFO] [165/701] EEIA.MI → RANGING score:45 H60:0.462 regime:LATERALE
+2026-05-11 23:29:37,559 [INFO] [166/701] EGOV.MI → RANGING score:67 H60:0.423 regime:LATERALE
+2026-05-11 23:29:37,570 [INFO] [167/701] EHYA.MI → BUY3 score:85 H60:0.561 regime:LATERALE
+2026-05-11 23:29:37,662 [INFO] [169/701] EM13.MI → RANGING score:66 H60:0.532 regime:LATERALE
+2026-05-11 23:29:37,694 [INFO] [170/701] EIMI.MI → BUY3 score:85 H60:0.552 regime:SLANCIO
+2026-05-11 23:29:37,695 [INFO] [171/701] ELCR.MI → BUY3 score:85 H60:0.467 regime:SALITA
+2026-05-11 23:29:37,754 [INFO] [172/701] EMI.MI → BUY2 score:83 H60:0.359 regime:SALITA
+2026-05-11 23:29:37,771 [WARNING] EMIM.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EMIM.MI?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:37,794 [INFO] [173/701] EMOVE.MI → BUY1 score:83 H60:0.465 regime:SALITA
+2026-05-11 23:29:37,808 [INFO] [174/701] EMQQ.MI → RANGING score:34 H60:0.48 regime:LATERALE
+2026-05-11 23:29:37,829 [INFO] [175/701] ENCO.MI → RANGING score:17 H60:0.515 regime:TRANSIZIONE
+2026-05-11 23:29:37,874 [WARNING] ENRG.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ENRG.DE?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:37,900 [INFO] [176/701] ENRG.MI → RANGING score:14 H60:0.395 regime:LATERALE
+2026-05-11 23:29:37,917 [INFO] [177/701] EPRA.MI → RANGING score:75 H60:0.592 regime:LATERALE
+2026-05-11 23:29:37,984 [WARNING] EPRE.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EPRE.DE?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:38,011 [INFO] [180/701] EPRE.MI → SELL score:53 H60:0.569 regime:LATERALE
+2026-05-11 23:29:38,033 [WARNING] ERNE.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ERNE.DE?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:38,048 [INFO] [181/701] EQQQ.MI → BUY3 score:85 H60:0.657 regime:SLANCIO
+2026-05-11 23:29:38,112 [INFO] [183/701] ERNE.MI → BUY1 score:10 H60:0.197 regime:SALITA
+2026-05-11 23:29:38,145 [INFO] [184/701] EROX.MI → RANGING score:65 H60:0.53 regime:LATERALE
+2026-05-11 23:29:38,206 [INFO] [185/701] ESGO.MI → RANGING score:63 H60:0.535 regime:LATERALE
+2026-05-11 23:29:38,221 [INFO] [186/701] ESPO.MI → SELL score:18 H60:0.278 regime:LATERALE
+2026-05-11 23:29:38,238 [INFO] [187/701] ESPY.MI → BUY2 score:79 H60:0.327 regime:SALITA
+2026-05-11 23:29:38,306 [WARNING] ETHE.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ETHE.DE?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:38,306 [INFO] [188/701] EST.MI → RANGING score:65 H60:0.565 regime:LATERALE
+2026-05-11 23:29:38,349 [WARNING] ESXS.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ESXS.MI?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:38,385 [INFO] [189/701] EUC.MI → RANGING score:66 H60:0.519 regime:LATERALE
+2026-05-11 23:29:38,453 [WARNING] EUL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EUL.MI?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:38,662 [INFO] [191/701] EUNY.DE → RANGING score:55 H60:0.237 regime:LATERALE
+2026-05-11 23:29:38,721 [WARNING] EVPE.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EVPE.DE?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:38,983 [WARNING] DX3S.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DX3S.MI?interval=1d&period1=1761262176&period2=1778542176&events=history&includeAdjustedClose=true
+2026-05-11 23:29:39,457 [INFO] [193/701] EXS1.DE → RANGING score:70 H60:0.526 regime:TRANSIZIONE
+2026-05-11 23:29:39,538 [INFO] [194/701] EXS1.MI → RANGING score:67 H60:0.529 regime:TRANSIZIONE
+2026-05-11 23:29:39,662 [INFO] [195/701] EXV1.DE → RANGING score:71 H60:0.527 regime:LATERALE
+2026-05-11 23:29:39,761 [INFO] [196/701] EXV2.DE → BUY3 score:84 H60:0.1 regime:LATERALE
+2026-05-11 23:29:39,838 [WARNING] EMIM.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EMIM.MI?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:39,858 [INFO] [197/701] EXV3.DE → BUY3 score:88 H60:0.51 regime:SALITA
+2026-05-11 23:29:39,937 [WARNING] ENRG.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ENRG.DE?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:40,017 [INFO] [198/701] EXV4.DE → SELL score:40 H60:0.541 regime:TRANSIZIONE
+2026-05-11 23:29:40,057 [WARNING] EPRE.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EPRE.DE?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:40,094 [WARNING] ERNE.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ERNE.DE?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:40,125 [INFO] [199/701] EXV5.DE → RANGING score:68 H60:0.566 regime:LATERALE
+2026-05-11 23:29:40,217 [INFO] [200/701] EXV6.DE → RANGING score:71 H60:0.504 regime:LATERALE
+2026-05-11 23:29:40,316 [INFO] [201/701] EXV7.DE → SELL score:23 H60:0.561 regime:TRANSIZIONE
+2026-05-11 23:29:40,379 [WARNING] ETHE.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ETHE.DE?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:40,421 [WARNING] ESXS.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ESXS.MI?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:40,422 [INFO] [202/701] EXV8.DE → RANGING score:67 H60:0.603 regime:LATERALE
+2026-05-11 23:29:40,512 [WARNING] EUL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EUL.MI?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:40,594 [INFO] [203/701] EXV9.DE → RANGING score:69 H60:0.343 regime:LATERALE
+2026-05-11 23:29:40,653 [WARNING] EXVA.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVA.DE?interval=1d&period1=1761262180&period2=1778542180&events=history&includeAdjustedClose=true
+2026-05-11 23:29:40,778 [WARNING] EVPE.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EVPE.DE?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:42,713 [WARNING] EXVA.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVA.DE?interval=1d&period1=1761262180&period2=1778542180&events=history&includeAdjustedClose=true
+2026-05-11 23:29:43,044 [WARNING] DX3S.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/DX3S.MI?interval=1d&period1=1761262176&period2=1778542176&events=history&includeAdjustedClose=true
+2026-05-11 23:29:43,902 [WARNING] EMIM.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EMIM.MI?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:43,998 [WARNING] ENRG.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ENRG.DE?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:44,121 [WARNING] EPRE.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EPRE.DE?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:44,163 [WARNING] ERNE.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ERNE.DE?interval=1d&period1=1761262177&period2=1778542177&events=history&includeAdjustedClose=true
+2026-05-11 23:29:44,441 [WARNING] ETHE.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ETHE.DE?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:44,487 [WARNING] ESXS.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ESXS.MI?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:44,572 [WARNING] EUL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EUL.MI?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:44,844 [WARNING] EVPE.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EVPE.DE?interval=1d&period1=1761262178&period2=1778542178&events=history&includeAdjustedClose=true
+2026-05-11 23:29:46,791 [WARNING] EXVA.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVA.DE?interval=1d&period1=1761262180&period2=1778542180&events=history&includeAdjustedClose=true
+2026-05-11 23:29:49,110 [WARNING] EXVB.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVB.DE?interval=1d&period1=1761262189&period2=1778542189&events=history&includeAdjustedClose=true
+2026-05-11 23:29:49,964 [WARNING] EXVC.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVC.DE?interval=1d&period1=1761262189&period2=1778542189&events=history&includeAdjustedClose=true
+2026-05-11 23:29:50,105 [WARNING] EXVD.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVD.DE?interval=1d&period1=1761262189&period2=1778542189&events=history&includeAdjustedClose=true
+2026-05-11 23:29:50,246 [INFO] [209/701] EXXY.MI → RANGING score:16 H60:0.461 regime:LATERALE
+2026-05-11 23:29:50,263 [INFO] [210/701] EXXT.DE → BUY3 score:85 H60:0.669 regime:SLANCIO
+2026-05-11 23:29:50,317 [WARNING] FINT.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/FINT.MI?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:50,399 [INFO] [211/701] FINX.MI → RANGING score:40 H60:0.381 regime:LATERALE
+2026-05-11 23:29:50,523 [INFO] [214/701] FMI.MI → BUY2 score:82 H60:0.588 regime:SLANCIO
+2026-05-11 23:29:50,539 [INFO] [215/701] FLXI.MI → RANGING score:68 H60:0.562 regime:LATERALE
+2026-05-11 23:29:50,584 [INFO] [217/701] FOO.MI → RANGING score:8 H60:0.438 regime:LATERALE
+2026-05-11 23:29:50,631 [INFO] [218/701] FOOD.MI → RANGING score:69 H60:0.55 regime:LATERALE
+2026-05-11 23:29:50,645 [INFO] [219/701] FTGM.DE → BUY3 score:89 H60:0.469 regime:TRANSIZIONE
+2026-05-11 23:29:50,701 [INFO] [220/701] FUSU.MI → BUY2 score:76 H60:0.681 regime:SLANCIO
+2026-05-11 23:29:50,701 [INFO] [221/701] GAGG.MI → RANGING score:21 H60:0.431 regime:LATERALE
+2026-05-11 23:29:50,706 [WARNING] GAME.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/GAME.DE?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:50,765 [INFO] [222/701] GAS.MI → RANGING score:34 H60:0.345 regime:LATERALE
+2026-05-11 23:29:50,794 [INFO] [223/701] GDX.MI → RANGING score:69 H60:0.525 regime:LATERALE
+2026-05-11 23:29:50,809 [INFO] [224/701] GCLE.MI → BUY2 score:77 H60:0.54 regime:SALITA
+2026-05-11 23:29:50,854 [INFO] [226/701] GDXJ.MI → RANGING score:69 H60:0.518 regime:LATERALE
+2026-05-11 23:29:50,919 [INFO] [227/701] GLUG.MI → RANGING score:66 H60:0.551 regime:LATERALE
+2026-05-11 23:29:50,924 [INFO] [228/701] GLUX.MI → RANGING score:63 H60:0.52 regime:LATERALE
+2026-05-11 23:29:50,925 [WARNING] GNOM.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/GNOM.DE?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:50,953 [INFO] [229/701] GNOM.MI → RANGING score:67 H60:0.391 regime:LATERALE
+2026-05-11 23:29:51,009 [WARNING] GOG2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/GOG2.MI?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:51,010 [INFO] [230/701] GOAI.MI → BUY3 score:85 H60:0.611 regime:SLANCIO
+2026-05-11 23:29:51,037 [INFO] [231/701] GOVA.MI → RANGING score:69 H60:0.436 regime:TRANSIZIONE
+2026-05-11 23:29:51,119 [INFO] [232/701] GSCE.MI → RANGING score:16 H60:0.48 regime:LATERALE
+2026-05-11 23:29:51,143 [INFO] [233/701] GRC.MI → RANGING score:65 H60:0.494 regime:LATERALE
+2026-05-11 23:29:51,194 [WARNING] EXVB.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVB.DE?interval=1d&period1=1761262189&period2=1778542189&events=history&includeAdjustedClose=true
+2026-05-11 23:29:51,212 [WARNING] HACK.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HACK.DE?interval=1d&period1=1761262191&period2=1778542191&events=history&includeAdjustedClose=true
+2026-05-11 23:29:51,213 [INFO] [234/701] GSM.MI → RANGING score:73 H60:0.508 regime:LATERALE
+2026-05-11 23:29:51,338 [INFO] [235/701] HDRO.MI → BUY2 score:78 H60:0.617 regime:SLANCIO
+2026-05-11 23:29:51,398 [WARNING] HEAL.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HEAL.DE?interval=1d&period1=1761262191&period2=1778542191&events=history&includeAdjustedClose=true
+2026-05-11 23:29:52,031 [WARNING] EXVC.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVC.DE?interval=1d&period1=1761262189&period2=1778542189&events=history&includeAdjustedClose=true
+2026-05-11 23:29:52,167 [WARNING] EXVD.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVD.DE?interval=1d&period1=1761262189&period2=1778542189&events=history&includeAdjustedClose=true
+2026-05-11 23:29:52,378 [WARNING] FINT.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/FINT.MI?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:52,769 [WARNING] GAME.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/GAME.DE?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:52,868 [INFO] [237/701] HEAL.MI → RANGING score:29 H60:0.312 regime:LATERALE
+2026-05-11 23:29:52,991 [WARNING] GNOM.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/GNOM.DE?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:52,992 [INFO] [238/701] HEI.DE → RANGING score:62 H60:0.498 regime:LATERALE
+2026-05-11 23:29:53,068 [INFO] [239/701] HERU.MI → WATCH score:69 H60:0.341 regime:LATERALE
+2026-05-11 23:29:53,074 [WARNING] GOG2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/GOG2.MI?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:53,124 [WARNING] HGEN.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HGEN.DE?interval=1d&period1=1761262193&period2=1778542193&events=history&includeAdjustedClose=true
+2026-05-11 23:29:53,272 [WARNING] HACK.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HACK.DE?interval=1d&period1=1761262191&period2=1778542191&events=history&includeAdjustedClose=true
+2026-05-11 23:29:53,457 [WARNING] HEAL.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HEAL.DE?interval=1d&period1=1761262191&period2=1778542191&events=history&includeAdjustedClose=true
+2026-05-11 23:29:55,187 [WARNING] HGEN.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HGEN.DE?interval=1d&period1=1761262193&period2=1778542193&events=history&includeAdjustedClose=true
+2026-05-11 23:29:55,254 [WARNING] EXVB.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVB.DE?interval=1d&period1=1761262189&period2=1778542189&events=history&includeAdjustedClose=true
+2026-05-11 23:29:56,104 [WARNING] EXVC.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVC.DE?interval=1d&period1=1761262189&period2=1778542189&events=history&includeAdjustedClose=true
+2026-05-11 23:29:56,277 [WARNING] EXVD.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/EXVD.DE?interval=1d&period1=1761262189&period2=1778542189&events=history&includeAdjustedClose=true
+2026-05-11 23:29:56,437 [WARNING] FINT.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/FINT.MI?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:56,829 [WARNING] GAME.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/GAME.DE?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:57,058 [WARNING] GNOM.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/GNOM.DE?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:57,132 [WARNING] GOG2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/GOG2.MI?interval=1d&period1=1761262190&period2=1778542190&events=history&includeAdjustedClose=true
+2026-05-11 23:29:57,335 [WARNING] HACK.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HACK.DE?interval=1d&period1=1761262191&period2=1778542191&events=history&includeAdjustedClose=true
+2026-05-11 23:29:57,516 [WARNING] HEAL.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HEAL.DE?interval=1d&period1=1761262191&period2=1778542191&events=history&includeAdjustedClose=true
+2026-05-11 23:29:59,352 [WARNING] HGEN.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HGEN.DE?interval=1d&period1=1761262193&period2=1778542193&events=history&includeAdjustedClose=true
+2026-05-11 23:30:01,335 [INFO] [241/701] HLT.MI → RANGING score:20 H60:0.543 regime:TRANSIZIONE
+2026-05-11 23:30:01,465 [INFO] [242/701] HTWO.MI → BUY2 score:79 H60:0.621 regime:SLANCIO
+2026-05-11 23:30:01,532 [WARNING] HYGN.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HYGN.DE?interval=1d&period1=1761262201&period2=1778542201&events=history&includeAdjustedClose=true
+2026-05-11 23:30:02,188 [INFO] [244/701] HYGN.MI → BUY2 score:79 H60:0.65 regime:SLANCIO
+2026-05-11 23:30:02,284 [INFO] [246/701] HYLD.MI → RANGING score:51 H60:0.423 regime:LATERALE
+2026-05-11 23:30:02,380 [INFO] [247/701] IB26.MI → BUY3 score:86 H60:0.381 regime:RIBASSO
+2026-05-11 23:30:02,416 [INFO] [248/701] IAPD.MI → RANGING score:85 H60:0.363 regime:TRANSIZIONE
+2026-05-11 23:30:02,460 [INFO] [250/701] IB27.MI → RANGING score:60 H60:0.49 regime:SALITA
+2026-05-11 23:30:02,507 [WARNING] IB29.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IB29.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:02,508 [INFO] [251/701] IB28.MI → RANGING score:49 H60:0.609 regime:TRANSIZIONE
+2026-05-11 23:30:02,516 [WARNING] IB30.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IB30.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:02,587 [INFO] [252/701] IBCI.MI → WATCH score:68 H60:0.335 regime:SALITA
+2026-05-11 23:30:02,652 [WARNING] IBG6.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBG6.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:02,894 [WARNING] IBG7.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBG7.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:03,118 [WARNING] IBG8.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBG8.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:03,288 [INFO] [256/701] IBTM.MI → SELL score:29 H60:0.444 regime:LATERALE
+2026-05-11 23:30:03,357 [WARNING] IBTMH.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBTMH.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:03,435 [INFO] [258/701] IBTS.MI → SELL score:41 H60:0.493 regime:TRANSIZIONE
+2026-05-11 23:30:03,545 [WARNING] IBTSH.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBTSH.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:03,599 [WARNING] HYGN.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HYGN.DE?interval=1d&period1=1761262201&period2=1778542201&events=history&includeAdjustedClose=true
+2026-05-11 23:30:03,621 [INFO] [260/701] IBZL.MI → SELL score:30 H60:0.511 regime:LATERALE
+2026-05-11 23:30:03,700 [INFO] [261/701] ICBR.MI → BUY3 score:85 H60:0.378 regime:TRANSIZIONE
+2026-05-11 23:30:03,756 [WARNING] IDTL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IDTL.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:04,581 [WARNING] IB29.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IB29.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:04,584 [WARNING] IB30.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IB30.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:04,715 [WARNING] IBG6.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBG6.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:05,000 [WARNING] IBG7.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBG7.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:05,176 [WARNING] IBG8.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBG8.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:05,446 [WARNING] IBTMH.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBTMH.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:05,447 [INFO] [263/701] IEAA.MI → RANGING score:60 H60:0.527 regime:LATERALE
+2026-05-11 23:30:05,541 [INFO] [264/701] IEAC.MI → RANGING score:78 H60:0.551 regime:LATERALE
+2026-05-11 23:30:05,626 [WARNING] IBTSH.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBTSH.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:05,627 [INFO] [265/701] IEGS.MI → RANGING score:49 H60:0.4 regime:LATERALE
+2026-05-11 23:30:05,685 [WARNING] IEMA.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IEMA.MI?interval=1d&period1=1761262205&period2=1778542205&events=history&includeAdjustedClose=true
+2026-05-11 23:30:05,817 [WARNING] IDTL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IDTL.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:07,666 [WARNING] HYGN.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HYGN.DE?interval=1d&period1=1761262201&period2=1778542201&events=history&includeAdjustedClose=true
+2026-05-11 23:30:07,793 [WARNING] IEMA.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IEMA.MI?interval=1d&period1=1761262205&period2=1778542205&events=history&includeAdjustedClose=true
+2026-05-11 23:30:08,652 [WARNING] IB29.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IB29.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:08,701 [WARNING] IB30.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IB30.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:08,776 [WARNING] IBG6.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBG6.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:09,061 [WARNING] IBG7.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBG7.MI?interval=1d&period1=1761262202&period2=1778542202&events=history&includeAdjustedClose=true
+2026-05-11 23:30:09,234 [WARNING] IBG8.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBG8.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:09,516 [WARNING] IBTMH.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBTMH.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:09,737 [WARNING] IBTSH.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IBTSH.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:09,879 [WARNING] IDTL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IDTL.MI?interval=1d&period1=1761262203&period2=1778542203&events=history&includeAdjustedClose=true
+2026-05-11 23:30:11,855 [WARNING] IEMA.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IEMA.MI?interval=1d&period1=1761262205&period2=1778542205&events=history&includeAdjustedClose=true
+2026-05-11 23:30:13,765 [INFO] [267/701] IEMB.MI → RANGING score:83 H60:0.488 regime:LATERALE
+2026-05-11 23:30:13,895 [INFO] [268/701] IEMO.MI → RANGING score:64 H60:0.501 regime:LATERALE
+2026-05-11 23:30:14,016 [INFO] [269/701] IFX.DE → BUY2 score:80 H60:0.673 regime:SLANCIO
+2026-05-11 23:30:14,073 [WARNING] IGEN.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IGEN.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:14,722 [WARNING] IGLA.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IGLA.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:14,813 [WARNING] IGLN.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IGLN.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:14,873 [INFO] [273/701] IHYG.MI → BUY3 score:85 H60:0.574 regime:LATERALE
+2026-05-11 23:30:14,969 [INFO] [274/701] IHYU.MI → SELL score:26 H60:0.282 regime:LATERALE
+2026-05-11 23:30:15,027 [WARNING] IHYUH.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IHYUH.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:15,122 [WARNING] IITL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IITL.MI?interval=1d&period1=1761262215&period2=1778542215&events=history&includeAdjustedClose=true
+2026-05-11 23:30:15,299 [WARNING] IJPA.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IJPA.MI?interval=1d&period1=1761262215&period2=1778542215&events=history&includeAdjustedClose=true
+2026-05-11 23:30:15,609 [INFO] [278/701] IMEU.MI → RANGING score:63 H60:0.533 regime:LATERALE
+2026-05-11 23:30:15,732 [INFO] [279/701] IMIB.MI → BUY3 score:86 H60:0.548 regime:TRANSIZIONE
+2026-05-11 23:30:15,826 [INFO] [281/701] INDG.MI → RANGING score:65 H60:0.516 regime:LATERALE
+2026-05-11 23:30:15,843 [INFO] [282/701] INAA.MI → BUY3 score:84 H60:0.665 regime:SLANCIO
+2026-05-11 23:30:15,929 [INFO] [284/701] INDI.MI → RANGING score:68 H60:0.584 regime:LATERALE
+2026-05-11 23:30:15,943 [INFO] [285/701] INF1A.MI → BUY3 score:93 H60:0.396 regime:SALITA
+2026-05-11 23:30:15,981 [INFO] [286/701] INFR.MI → RANGING score:15 H60:0.15 regime:LATERALE
+2026-05-11 23:30:16,036 [INFO] [287/701] INQQ.MI → SELL score:41 H60:0.669 regime:RIBASSO
+2026-05-11 23:30:16,066 [INFO] [288/701] INRG.MI → WATCH score:59 H60:0.343 regime:SALITA
+2026-05-11 23:30:16,081 [INFO] [289/701] INS.MI → RANGING score:44 H60:0.472 regime:LATERALE
+2026-05-11 23:30:16,118 [WARNING] IQDV.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQDV.MI?interval=1d&period1=1761262216&period2=1778542216&events=history&includeAdjustedClose=true
+2026-05-11 23:30:16,152 [WARNING] IGEN.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IGEN.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:16,192 [INFO] [290/701] IQQ9.DE → RANGING score:70 H60:0.312 regime:LATERALE
+2026-05-11 23:30:16,209 [INFO] [291/701] IQQF.DE → BUY3 score:85 H60:0.535 regime:SALITA
+2026-05-11 23:30:16,271 [WARNING] IQQH.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQQH.MI?interval=1d&period1=1761262216&period2=1778542216&events=history&includeAdjustedClose=true
+2026-05-11 23:30:16,275 [WARNING] IQQP.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQQP.MI?interval=1d&period1=1761262216&period2=1778542216&events=history&includeAdjustedClose=true
+2026-05-11 23:30:16,780 [WARNING] IGLA.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IGLA.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:16,880 [WARNING] IGLN.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IGLN.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:17,142 [WARNING] IHYUH.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IHYUH.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:17,183 [WARNING] IITL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IITL.MI?interval=1d&period1=1761262215&period2=1778542215&events=history&includeAdjustedClose=true
+2026-05-11 23:30:17,359 [WARNING] IJPA.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IJPA.MI?interval=1d&period1=1761262215&period2=1778542215&events=history&includeAdjustedClose=true
+2026-05-11 23:30:17,916 [WARNING] IQQW.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQQW.MI?interval=1d&period1=1761262217&period2=1778542217&events=history&includeAdjustedClose=true
+2026-05-11 23:30:18,179 [WARNING] IQDV.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQDV.MI?interval=1d&period1=1761262216&period2=1778542216&events=history&includeAdjustedClose=true
+2026-05-11 23:30:18,342 [WARNING] IQQH.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQQH.MI?interval=1d&period1=1761262216&period2=1778542216&events=history&includeAdjustedClose=true
+2026-05-11 23:30:18,398 [WARNING] IQQP.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQQP.MI?interval=1d&period1=1761262216&period2=1778542216&events=history&includeAdjustedClose=true
+2026-05-11 23:30:19,980 [WARNING] IQQW.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQQW.MI?interval=1d&period1=1761262217&period2=1778542217&events=history&includeAdjustedClose=true
+2026-05-11 23:30:20,215 [WARNING] IGEN.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IGEN.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:20,838 [WARNING] IGLA.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IGLA.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:20,946 [WARNING] IGLN.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IGLN.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:21,242 [WARNING] IITL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IITL.MI?interval=1d&period1=1761262215&period2=1778542215&events=history&includeAdjustedClose=true
+2026-05-11 23:30:21,248 [WARNING] IHYUH.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IHYUH.MI?interval=1d&period1=1761262214&period2=1778542214&events=history&includeAdjustedClose=true
+2026-05-11 23:30:21,421 [WARNING] IJPA.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IJPA.MI?interval=1d&period1=1761262215&period2=1778542215&events=history&includeAdjustedClose=true
+2026-05-11 23:30:22,242 [WARNING] IQDV.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQDV.MI?interval=1d&period1=1761262216&period2=1778542216&events=history&includeAdjustedClose=true
+2026-05-11 23:30:22,403 [WARNING] IQQH.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQQH.MI?interval=1d&period1=1761262216&period2=1778542216&events=history&includeAdjustedClose=true
+2026-05-11 23:30:22,510 [WARNING] IQQP.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQQP.MI?interval=1d&period1=1761262216&period2=1778542216&events=history&includeAdjustedClose=true
+2026-05-11 23:30:24,039 [WARNING] IQQW.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IQQW.MI?interval=1d&period1=1761262217&period2=1778542217&events=history&includeAdjustedClose=true
+2026-05-11 23:30:26,324 [WARNING] IRBO.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IRBO.DE?interval=1d&period1=1761262226&period2=1778542226&events=history&includeAdjustedClose=true
+2026-05-11 23:30:26,930 [INFO] [295/701] IS04.DE → SELL score:29 H60:0.32 regime:LATERALE
+2026-05-11 23:30:27,024 [INFO] [297/701] IS3C.DE → RANGING score:77 H60:0.586 regime:LATERALE
+2026-05-11 23:30:27,075 [INFO] [298/701] IS3N.DE → BUY3 score:85 H60:0.553 regime:SLANCIO
+2026-05-11 23:30:27,085 [WARNING] IS3O.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IS3O.DE?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:27,137 [WARNING] IS3P.DE: attempt 1 — 'timestamp'
+2026-05-11 23:30:27,335 [INFO] [301/701] ISAC.MI → BUY3 score:84 H60:0.629 regime:SLANCIO
+2026-05-11 23:30:27,349 [INFO] [302/701] IS3U.DE → RANGING score:76 H60:0.51 regime:LATERALE
+2026-05-11 23:30:27,417 [WARNING] ISP5.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ISP5.MI?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:27,435 [INFO] [304/701] ISAG.MI → RANGING score:8 H60:0.151 regime:LATERALE
+2026-05-11 23:30:27,520 [INFO] [305/701] ISPY.MI → BUY2 score:85 H60:0.275 regime:LATERALE
+2026-05-11 23:30:27,546 [INFO] [306/701] ISPA.DE → RANGING score:74 H60:0.441 regime:LATERALE
+2026-05-11 23:30:27,592 [WARNING] ISUN.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ISUN.MI?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:27,625 [INFO] [307/701] ITBL.MI → BUY1 score:83 H60:0.581 regime:TRANSIZIONE
+2026-05-11 23:30:27,753 [INFO] [308/701] ITPS.MI → RANGING score:35 H60:0.457 regime:LATERALE
+2026-05-11 23:30:27,858 [WARNING] ITPSH.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ITPSH.MI?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:28,320 [INFO] [310/701] IU0E.MI → RANGING score:69 H60:0.491 regime:LATERALE
+2026-05-11 23:30:28,388 [WARNING] IRBO.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IRBO.DE?interval=1d&period1=1761262226&period2=1778542226&events=history&includeAdjustedClose=true
+2026-05-11 23:30:28,439 [WARNING] IUCD.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUCD.MI?interval=1d&period1=1761262228&period2=1778542228&events=history&includeAdjustedClose=true
+2026-05-11 23:30:28,466 [WARNING] IUCM.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUCM.MI?interval=1d&period1=1761262228&period2=1778542228&events=history&includeAdjustedClose=true
+2026-05-11 23:30:28,631 [WARNING] IUCS.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUCS.MI?interval=1d&period1=1761262228&period2=1778542228&events=history&includeAdjustedClose=true
+2026-05-11 23:30:29,148 [WARNING] IS3O.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IS3O.DE?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:29,201 [WARNING] IS3P.DE: attempt 2 — 'timestamp'
+2026-05-11 23:30:29,484 [WARNING] ISP5.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ISP5.MI?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:29,711 [WARNING] ISUN.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ISUN.MI?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:29,918 [WARNING] ITPSH.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ITPSH.MI?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:30,102 [WARNING] IUES.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUES.MI?interval=1d&period1=1761262230&period2=1778542230&events=history&includeAdjustedClose=true
+2026-05-11 23:30:30,498 [WARNING] IUCD.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUCD.MI?interval=1d&period1=1761262228&period2=1778542228&events=history&includeAdjustedClose=true
+2026-05-11 23:30:30,528 [WARNING] IUCM.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUCM.MI?interval=1d&period1=1761262228&period2=1778542228&events=history&includeAdjustedClose=true
+2026-05-11 23:30:30,691 [WARNING] IUCS.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUCS.MI?interval=1d&period1=1761262228&period2=1778542228&events=history&includeAdjustedClose=true
+2026-05-11 23:30:32,162 [WARNING] IUES.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUES.MI?interval=1d&period1=1761262230&period2=1778542230&events=history&includeAdjustedClose=true
+2026-05-11 23:30:32,450 [WARNING] IRBO.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IRBO.DE?interval=1d&period1=1761262226&period2=1778542226&events=history&includeAdjustedClose=true
+2026-05-11 23:30:33,211 [WARNING] IS3O.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IS3O.DE?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:33,261 [WARNING] IS3P.DE: attempt 3 — 'timestamp'
+2026-05-11 23:30:33,549 [WARNING] ISP5.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ISP5.MI?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:33,771 [WARNING] ISUN.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ISUN.MI?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:33,980 [WARNING] ITPSH.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/ITPSH.MI?interval=1d&period1=1761262227&period2=1778542227&events=history&includeAdjustedClose=true
+2026-05-11 23:30:34,558 [WARNING] IUCD.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUCD.MI?interval=1d&period1=1761262228&period2=1778542228&events=history&includeAdjustedClose=true
+2026-05-11 23:30:34,597 [WARNING] IUCM.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUCM.MI?interval=1d&period1=1761262228&period2=1778542228&events=history&includeAdjustedClose=true
+2026-05-11 23:30:34,753 [WARNING] IUCS.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUCS.MI?interval=1d&period1=1761262228&period2=1778542228&events=history&includeAdjustedClose=true
+2026-05-11 23:30:36,226 [WARNING] IUES.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUES.MI?interval=1d&period1=1761262230&period2=1778542230&events=history&includeAdjustedClose=true
+2026-05-11 23:30:38,515 [WARNING] IUFS.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUFS.MI?interval=1d&period1=1761262238&period2=1778542238&events=history&includeAdjustedClose=true
+2026-05-11 23:30:39,321 [WARNING] IUIS.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUIS.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:39,324 [WARNING] IUHC.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUHC.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:39,611 [WARNING] IUIT.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUIT.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:39,831 [WARNING] IUMS.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUMS.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:40,043 [WARNING] IURE.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IURE.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:40,579 [WARNING] IUFS.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUFS.MI?interval=1d&period1=1761262238&period2=1778542238&events=history&includeAdjustedClose=true
+2026-05-11 23:30:40,656 [INFO] [322/701] IUS3.DE → BUY2 score:73 H60:0.58 regime:SLANCIO
+2026-05-11 23:30:40,675 [INFO] [323/701] IUSE.MI → BUY3 score:85 H60:0.665 regime:SLANCIO
+2026-05-11 23:30:40,755 [INFO] [325/701] IUSS.DE → SELL score:20 H60:0.369 regime:TRANSIZIONE
+2026-05-11 23:30:40,794 [INFO] [326/701] IUSQ.DE → BUY3 score:81 H60:0.617 regime:SLANCIO
+2026-05-11 23:30:40,827 [WARNING] IUUS.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUUS.MI?interval=1d&period1=1761262240&period2=1778542240&events=history&includeAdjustedClose=true
+2026-05-11 23:30:40,852 [INFO] [327/701] IVAI.MI → BUY3 score:88 H60:0.543 regime:SALITA
+2026-05-11 23:30:40,872 [INFO] [328/701] IVDF.DE → RANGING score:90 H60:0.291 regime:LATERALE
+2026-05-11 23:30:40,912 [WARNING] IWDA.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IWDA.MI?interval=1d&period1=1761262240&period2=1778542240&events=history&includeAdjustedClose=true
+2026-05-11 23:30:41,000 [INFO] [329/701] IWDE.MI → BUY3 score:82 H60:0.632 regime:SLANCIO
+2026-05-11 23:30:41,085 [INFO] [330/701] IWMO.MI → BUY3 score:83 H60:0.544 regime:SALITA
+2026-05-11 23:30:41,161 [INFO] [331/701] IWQU.MI → BUY1 score:78 H60:0.618 regime:SLANCIO
+2026-05-11 23:30:41,238 [INFO] [332/701] IWVL.MI → BUY3 score:86 H60:0.554 regime:SLANCIO
+2026-05-11 23:30:41,314 [INFO] [333/701] JEDI.MI → RANGING score:72 H60:0.224 regime:TRANSIZIONE
+2026-05-11 23:30:41,398 [INFO] [334/701] JU13.MI → RANGING score:21 H60:0.52 regime:LATERALE
+2026-05-11 23:30:41,412 [WARNING] IUHC.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUHC.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:41,450 [WARNING] IUIS.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUIS.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:41,475 [INFO] [335/701] KARS.MI → RANGING score:48 H60:0.22 regime:TRANSIZIONE
+2026-05-11 23:30:41,540 [WARNING] KOIN.MI: attempt 1 — 'timestamp'
+2026-05-11 23:30:41,672 [WARNING] IUIT.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUIT.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:41,896 [WARNING] IUMS.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUMS.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:42,105 [WARNING] IURE.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IURE.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:42,304 [INFO] [337/701] KOR.MI → BUY3 score:88 H60:0.483 regime:SALITA
+2026-05-11 23:30:42,381 [INFO] [338/701] KRBN.MI → BUY2 score:70 H60:0.501 regime:SALITA
+2026-05-11 23:30:42,455 [INFO] [339/701] KWBE.MI → BUY2 score:76 H60:0.296 regime:LATERALE
+2026-05-11 23:30:42,535 [INFO] [340/701] LABL.MI → BUY3 score:85 H60:0.648 regime:SLANCIO
+2026-05-11 23:30:42,611 [INFO] [341/701] LAFRI.MI → RANGING score:64 H60:0.502 regime:LATERALE
+2026-05-11 23:30:42,691 [INFO] [342/701] LCCN.MI → RANGING score:60 H60:0.342 regime:LATERALE
+2026-05-11 23:30:42,769 [INFO] [343/701] LCUJ.DE → BUY3 score:100 H60:0.1 regime:TRANSIZIONE
+2026-05-11 23:30:42,872 [INFO] [344/701] LDO.MI → RANGING score:33 H60:0.326 regime:TRANSIZIONE
+2026-05-11 23:30:42,893 [WARNING] IUUS.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUUS.MI?interval=1d&period1=1761262240&period2=1778542240&events=history&includeAdjustedClose=true
+2026-05-11 23:30:42,952 [INFO] [345/701] LEAD.MI → BUY1 score:73 H60:0.263 regime:LATERALE
+2026-05-11 23:30:42,970 [WARNING] IWDA.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IWDA.MI?interval=1d&period1=1761262240&period2=1778542240&events=history&includeAdjustedClose=true
+2026-05-11 23:30:43,100 [WARNING] LITH.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LITH.MI?interval=1d&period1=1761262242&period2=1778542242&events=history&includeAdjustedClose=true
+2026-05-11 23:30:43,605 [WARNING] KOIN.MI: attempt 2 — 'timestamp'
+2026-05-11 23:30:44,638 [WARNING] IUFS.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUFS.MI?interval=1d&period1=1761262238&period2=1778542238&events=history&includeAdjustedClose=true
+2026-05-11 23:30:45,162 [WARNING] LITH.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LITH.MI?interval=1d&period1=1761262242&period2=1778542242&events=history&includeAdjustedClose=true
+2026-05-11 23:30:45,513 [WARNING] IUHC.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUHC.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:45,514 [WARNING] IUIS.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUIS.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:45,959 [WARNING] IUMS.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUMS.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:46,166 [WARNING] IURE.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IURE.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:46,764 [WARNING] IUIT.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUIT.MI?interval=1d&period1=1761262239&period2=1778542239&events=history&includeAdjustedClose=true
+2026-05-11 23:30:46,953 [WARNING] IUUS.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IUUS.MI?interval=1d&period1=1761262240&period2=1778542240&events=history&includeAdjustedClose=true
+2026-05-11 23:30:47,033 [WARNING] IWDA.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/IWDA.MI?interval=1d&period1=1761262240&period2=1778542240&events=history&includeAdjustedClose=true
+2026-05-11 23:30:47,714 [WARNING] KOIN.MI: attempt 3 — 'timestamp'
+2026-05-11 23:30:49,273 [WARNING] LITH.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LITH.MI?interval=1d&period1=1761262242&period2=1778542242&events=history&includeAdjustedClose=true
+2026-05-11 23:30:50,720 [INFO] [347/701] LITM.MI → WATCH score:79 H60:0.455 regime:SALITA
+2026-05-11 23:30:50,799 [INFO] [348/701] LITU.MI → RANGING score:73 H60:0.466 regime:SALITA
+2026-05-11 23:30:50,875 [INFO] [349/701] LNGA.MI → RANGING score:26 H60:0.313 regime:LATERALE
+2026-05-11 23:30:50,932 [WARNING] LNGE.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LNGE.MI?interval=1d&period1=1761262250&period2=1778542250&events=history&includeAdjustedClose=true
+2026-05-11 23:30:51,590 [WARNING] LQDA.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LQDA.MI?interval=1d&period1=1761262251&period2=1778542251&events=history&includeAdjustedClose=true
+2026-05-11 23:30:51,607 [INFO] [352/701] LOCK.MI → BUY3 score:90 H60:0.264 regime:TRANSIZIONE
+2026-05-11 23:30:51,715 [WARNING] LQDAH.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LQDAH.MI?interval=1d&period1=1761262251&period2=1778542251&events=history&includeAdjustedClose=true
+2026-05-11 23:30:52,037 [INFO] [354/701] LQQ.MI → BUY3 score:85 H60:0.66 regime:SLANCIO
+2026-05-11 23:30:52,140 [INFO] [355/701] LTAM.MI → BUY2 score:80 H60:0.557 regime:LATERALE
+2026-05-11 23:30:52,201 [WARNING] LUSB.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LUSB.MI?interval=1d&period1=1761262252&period2=1778542252&events=history&includeAdjustedClose=true
+2026-05-11 23:30:52,298 [INFO] [357/701] MACV.MI → BUY2 score:80 H60:0.615 regime:LATERALE
+2026-05-11 23:30:52,373 [INFO] [358/701] MAGR.MI → BUY2 score:75 H60:0.63 regime:SLANCIO
+2026-05-11 23:30:52,452 [INFO] [359/701] MATW.MI → RANGING score:64 H60:0.548 regime:LATERALE
+2026-05-11 23:30:52,530 [INFO] [360/701] MCHT.MI → BUY3 score:82 H60:0.432 regime:LATERALE
+2026-05-11 23:30:52,587 [WARNING] MET2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/MET2.MI?interval=1d&period1=1761262252&period2=1778542252&events=history&includeAdjustedClose=true
+2026-05-11 23:30:52,845 [INFO] [362/701] METAA.MI → RANGING score:68 H60:0.401 regime:LATERALE
+2026-05-11 23:30:52,922 [INFO] [363/701] METE.MI → BUY3 score:84 H60:0.585 regime:SLANCIO
+2026-05-11 23:30:53,004 [WARNING] LNGE.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LNGE.MI?interval=1d&period1=1761262250&period2=1778542250&events=history&includeAdjustedClose=true
+2026-05-11 23:30:53,004 [INFO] [365/701] MEUD.MI → RANGING score:64 H60:0.529 regime:LATERALE
+2026-05-11 23:30:53,084 [INFO] [367/701] MILL.MI → BUY3 score:90 H60:0.548 regime:TRANSIZIONE
+2026-05-11 23:30:53,098 [INFO] [368/701] MGIN.MI → SELL score:17 H60:0.302 regime:LATERALE
+2026-05-11 23:30:53,117 [INFO] [369/701] MJMT.DE → RANGING score:63 H60:0.498 regime:LATERALE
+2026-05-11 23:30:53,177 [INFO] [370/701] MODR.MI → BUY3 score:84 H60:0.63 regime:SLANCIO
+2026-05-11 23:30:53,178 [WARNING] MSF2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/MSF2.MI?interval=1d&period1=1761262253&period2=1778542253&events=history&includeAdjustedClose=true
+2026-05-11 23:30:53,185 [WARNING] MSTR2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/MSTR2.MI?interval=1d&period1=1761262253&period2=1778542253&events=history&includeAdjustedClose=true
+2026-05-11 23:30:53,256 [INFO] [371/701] MTVR.DE → BUY2 score:78 H60:0.665 regime:SLANCIO
+2026-05-11 23:30:53,331 [INFO] [372/701] MVOL.MI → SELL score:22 H60:0.406 regime:LATERALE
+2026-05-11 23:30:53,390 [WARNING] NATO.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/NATO.DE?interval=1d&period1=1761262253&period2=1778542253&events=history&includeAdjustedClose=true
+2026-05-11 23:30:53,648 [WARNING] LQDA.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LQDA.MI?interval=1d&period1=1761262251&period2=1778542251&events=history&includeAdjustedClose=true
+2026-05-11 23:30:53,799 [WARNING] LQDAH.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LQDAH.MI?interval=1d&period1=1761262251&period2=1778542251&events=history&includeAdjustedClose=true
+2026-05-11 23:30:53,800 [INFO] [374/701] NATO.MI → RANGING score:50 H60:0.322 regime:TRANSIZIONE
+2026-05-11 23:30:53,878 [INFO] [375/701] NCLR.MI → RANGING score:47 H60:0.388 regime:LATERALE
+2026-05-11 23:30:53,955 [INFO] [376/701] NGAS.MI → RANGING score:31 H60:0.364 regime:LATERALE
+2026-05-11 23:30:54,098 [INFO] [377/701] NICK.MI → RANGING score:8 H60:0.432 regime:SALITA
+2026-05-11 23:30:54,178 [INFO] [378/701] NTSG.MI → BUY3 score:82 H60:0.629 regime:SLANCIO
+2026-05-11 23:30:54,257 [INFO] [379/701] NTSZ.DE → RANGING score:68 H60:0.537 regime:LATERALE
+2026-05-11 23:30:54,265 [WARNING] LUSB.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LUSB.MI?interval=1d&period1=1761262252&period2=1778542252&events=history&includeAdjustedClose=true
+2026-05-11 23:30:54,334 [INFO] [380/701] NUCL.MI → RANGING score:73 H60:0.417 regime:LATERALE
+2026-05-11 23:30:54,410 [INFO] [381/701] NUKL.DE → RANGING score:68 H60:0.41 regime:LATERALE
+2026-05-11 23:30:54,469 [WARNING] NVD2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/NVD2.MI?interval=1d&period1=1761262254&period2=1778542254&events=history&includeAdjustedClose=true
+2026-05-11 23:30:54,646 [WARNING] MET2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/MET2.MI?interval=1d&period1=1761262252&period2=1778542252&events=history&includeAdjustedClose=true
+2026-05-11 23:30:55,242 [WARNING] MSF2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/MSF2.MI?interval=1d&period1=1761262253&period2=1778542253&events=history&includeAdjustedClose=true
+2026-05-11 23:30:55,331 [WARNING] MSTR2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/MSTR2.MI?interval=1d&period1=1761262253&period2=1778542253&events=history&includeAdjustedClose=true
+2026-05-11 23:30:55,355 [INFO] [383/701] OCEAN.MI → RANGING score:24 H60:0.422 regime:LATERALE
+2026-05-11 23:30:55,432 [INFO] [384/701] OIH.MI → RANGING score:14 H60:0.203 regime:TRANSIZIONE
+2026-05-11 23:30:55,450 [WARNING] NATO.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/NATO.DE?interval=1d&period1=1761262253&period2=1778542253&events=history&includeAdjustedClose=true
+2026-05-11 23:30:55,514 [INFO] [385/701] OVER.MI → WATCH score:76 H60:0.1 regime:SALITA
+2026-05-11 23:30:55,591 [INFO] [386/701] PAVE.MI → RANGING score:61 H60:0.572 regime:SLANCIO
+2026-05-11 23:30:55,716 [INFO] [387/701] PHAG.MI → BUY1 score:79 H60:0.429 regime:LATERALE
+2026-05-11 23:30:55,796 [INFO] [388/701] PHAU.MI → RANGING score:72 H60:0.491 regime:LATERALE
+2026-05-11 23:30:55,877 [INFO] [389/701] PHPD.MI → RANGING score:33 H60:0.493 regime:LATERALE
+2026-05-11 23:30:55,956 [INFO] [390/701] PHPT.MI → RANGING score:67 H60:0.386 regime:LATERALE
+2026-05-11 23:30:56,066 [WARNING] PLTR2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/PLTR2.MI?interval=1d&period1=1761262255&period2=1778542255&events=history&includeAdjustedClose=true
+2026-05-11 23:30:56,532 [WARNING] NVD2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/NVD2.MI?interval=1d&period1=1761262254&period2=1778542254&events=history&includeAdjustedClose=true
+2026-05-11 23:30:57,112 [WARNING] LNGE.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LNGE.MI?interval=1d&period1=1761262250&period2=1778542250&events=history&includeAdjustedClose=true
+2026-05-11 23:30:57,711 [WARNING] LQDA.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LQDA.MI?interval=1d&period1=1761262251&period2=1778542251&events=history&includeAdjustedClose=true
+2026-05-11 23:30:57,860 [WARNING] LQDAH.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LQDAH.MI?interval=1d&period1=1761262251&period2=1778542251&events=history&includeAdjustedClose=true
+2026-05-11 23:30:58,131 [WARNING] PLTR2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/PLTR2.MI?interval=1d&period1=1761262255&period2=1778542255&events=history&includeAdjustedClose=true
+2026-05-11 23:30:58,323 [WARNING] LUSB.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/LUSB.MI?interval=1d&period1=1761262252&period2=1778542252&events=history&includeAdjustedClose=true
+2026-05-11 23:30:58,759 [WARNING] MET2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/MET2.MI?interval=1d&period1=1761262252&period2=1778542252&events=history&includeAdjustedClose=true
+2026-05-11 23:30:59,304 [WARNING] MSF2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/MSF2.MI?interval=1d&period1=1761262253&period2=1778542253&events=history&includeAdjustedClose=true
+2026-05-11 23:30:59,393 [WARNING] MSTR2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/MSTR2.MI?interval=1d&period1=1761262253&period2=1778542253&events=history&includeAdjustedClose=true
+2026-05-11 23:30:59,516 [WARNING] NATO.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/NATO.DE?interval=1d&period1=1761262253&period2=1778542253&events=history&includeAdjustedClose=true
+2026-05-11 23:31:00,599 [WARNING] NVD2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/NVD2.MI?interval=1d&period1=1761262254&period2=1778542254&events=history&includeAdjustedClose=true
+2026-05-11 23:31:02,239 [WARNING] PLTR2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/PLTR2.MI?interval=1d&period1=1761262255&period2=1778542255&events=history&includeAdjustedClose=true
+2026-05-11 23:31:03,176 [WARNING] PRAT.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/PRAT.MI?interval=1d&period1=1761262263&period2=1778542263&events=history&includeAdjustedClose=true
+2026-05-11 23:31:03,818 [INFO] [393/701] PRY.MI → BUY3 score:88 H60:0.521 regime:SALITA
+2026-05-11 23:31:03,895 [INFO] [395/701] QQQ3.MI → BUY3 score:85 H60:0.658 regime:SLANCIO
+2026-05-11 23:31:03,939 [WARNING] QQQ3S.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/QQQ3S.MI?interval=1d&period1=1761262263&period2=1778542263&events=history&includeAdjustedClose=true
+2026-05-11 23:31:03,969 [INFO] [396/701] QTOP.MI → BUY2 score:78 H60:0.656 regime:SLANCIO
+2026-05-11 23:31:04,059 [INFO] [397/701] RACE.MI → WATCH score:67 H60:0.495 regime:LATERALE
+2026-05-11 23:31:04,141 [INFO] [398/701] RARE.MI → BUY3 score:85 H60:0.549 regime:LATERALE
+2026-05-11 23:31:04,215 [INFO] [399/701] RAYZ.MI → BUY1 score:67 H60:0.417 regime:LATERALE
+2026-05-11 23:31:04,277 [WARNING] RBOT.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/RBOT.DE?interval=1d&period1=1761262264&period2=1778542264&events=history&includeAdjustedClose=true
+2026-05-11 23:31:04,401 [INFO] [401/701] RBOT.MI → BUY3 score:86 H60:0.647 regime:SLANCIO
+2026-05-11 23:31:04,480 [INFO] [402/701] REMX.MI → BUY3 score:83 H60:0.445 regime:LATERALE
+2026-05-11 23:31:04,558 [INFO] [403/701] RENW.MI → BUY2 score:78 H60:0.336 regime:SALITA
+2026-05-11 23:31:04,682 [INFO] [404/701] REUSE.MI → BUY3 score:85 H60:0.612 regime:LATERALE
+2026-05-11 23:31:04,804 [INFO] [406/701] RHM.DE → SELL score:35 H60:0.12 regime:RIBASSO
+2026-05-11 23:31:04,834 [INFO] [407/701] ROBO.MI → BUY3 score:84 H60:0.627 regime:SLANCIO
+2026-05-11 23:31:04,891 [INFO] [408/701] ROE.MI → BUY3 score:83 H60:0.569 regime:LATERALE
+2026-05-11 23:31:04,911 [WARNING] SAMZ.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SAMZ.MI?interval=1d&period1=1761262264&period2=1778542264&events=history&includeAdjustedClose=true
+2026-05-11 23:31:05,023 [INFO] [409/701] SAP.DE → WATCH score:62 H60:0.421 regime:LATERALE
+2026-05-11 23:31:05,098 [INFO] [410/701] SAUDI.MI → RANGING score:55 H60:0.364 regime:LATERALE
+2026-05-11 23:31:05,180 [INFO] [411/701] SBIO.MI → SELL score:43 H60:0.315 regime:LATERALE
+2026-05-11 23:31:05,243 [WARNING] PRAT.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/PRAT.MI?interval=1d&period1=1761262263&period2=1778542263&events=history&includeAdjustedClose=true
+2026-05-11 23:31:05,268 [INFO] [412/701] SCITY.MI → BUY3 score:84 H60:0.633 regime:SLANCIO
+2026-05-11 23:31:05,335 [WARNING] SCRU.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SCRU.MI?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:05,367 [WARNING] SDS.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SDS.MI?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:05,473 [INFO] [415/701] SEMA.MI → BUY3 score:86 H60:0.54 regime:SALITA
+2026-05-11 23:31:05,550 [INFO] [417/701] SEME.MI → BUY3 score:87 H60:0.606 regime:SLANCIO
+2026-05-11 23:31:05,587 [WARNING] SEMI.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SEMI.DE?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:05,643 [INFO] [418/701] SEML.MI → RANGING score:81 H60:0.508 regime:LATERALE
+2026-05-11 23:31:05,717 [INFO] [419/701] SGBS.MI → RANGING score:66 H60:0.493 regime:TRANSIZIONE
+2026-05-11 23:31:05,801 [INFO] [420/701] SGLD.MI → RANGING score:71 H60:0.492 regime:TRANSIZIONE
+2026-05-11 23:31:05,868 [WARNING] SGOL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SGOL.MI?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:06,009 [WARNING] QQQ3S.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/QQQ3S.MI?interval=1d&period1=1761262263&period2=1778542263&events=history&includeAdjustedClose=true
+2026-05-11 23:31:06,336 [WARNING] RBOT.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/RBOT.DE?interval=1d&period1=1761262264&period2=1778542264&events=history&includeAdjustedClose=true
+2026-05-11 23:31:06,690 [INFO] [422/701] SHL.DE → SELL score:44 H60:0.478 regime:RIBASSO
+2026-05-11 23:31:06,750 [WARNING] SHLD.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SHLD.DE?interval=1d&period1=1761262266&period2=1778542266&events=history&includeAdjustedClose=true
+2026-05-11 23:31:06,977 [WARNING] SAMZ.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SAMZ.MI?interval=1d&period1=1761262264&period2=1778542264&events=history&includeAdjustedClose=true
+2026-05-11 23:31:07,397 [WARNING] SCRU.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SCRU.MI?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:07,461 [WARNING] SDS.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SDS.MI?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:07,646 [WARNING] SEMI.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SEMI.DE?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:07,928 [WARNING] SGOL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SGOL.MI?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:08,416 [INFO] [424/701] SIE.DE → BUY3 score:94 H60:0.59 regime:SLANCIO
+2026-05-11 23:31:08,491 [INFO] [425/701] SILV.MI → RANGING score:69 H60:0.498 regime:LATERALE
+2026-05-11 23:31:08,571 [INFO] [426/701] SJPA.MI → BUY3 score:90 H60:0.404 regime:LATERALE
+2026-05-11 23:31:08,647 [INFO] [427/701] SMART.MI → BUY1 score:10 H60:0.1 regime:SALITA
+2026-05-11 23:31:08,723 [INFO] [428/701] SMCX.MI → RANGING score:70 H60:0.629 regime:LATERALE
+2026-05-11 23:31:08,800 [INFO] [429/701] SMEA.MI → RANGING score:67 H60:0.519 regime:LATERALE
+2026-05-11 23:31:08,810 [WARNING] SHLD.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SHLD.DE?interval=1d&period1=1761262266&period2=1778542266&events=history&includeAdjustedClose=true
+2026-05-11 23:31:08,878 [INFO] [430/701] SMH.MI → BUY3 score:87 H60:0.592 regime:SLANCIO
+2026-05-11 23:31:08,958 [INFO] [431/701] SNGA.MI → RANGING score:35 H60:0.21 regime:LATERALE
+2026-05-11 23:31:09,034 [INFO] [432/701] SNSR.MI → BUY2 score:77 H60:0.524 regime:SALITA
+2026-05-11 23:31:09,093 [WARNING] SNVD.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SNVD.MI?interval=1d&period1=1761262269&period2=1778542269&events=history&includeAdjustedClose=true
+2026-05-11 23:31:09,303 [WARNING] PRAT.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/PRAT.MI?interval=1d&period1=1761262263&period2=1778542263&events=history&includeAdjustedClose=true
+2026-05-11 23:31:10,072 [WARNING] QQQ3S.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/QQQ3S.MI?interval=1d&period1=1761262263&period2=1778542263&events=history&includeAdjustedClose=true
+2026-05-11 23:31:10,405 [WARNING] RBOT.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/RBOT.DE?interval=1d&period1=1761262264&period2=1778542264&events=history&includeAdjustedClose=true
+2026-05-11 23:31:11,036 [WARNING] SAMZ.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SAMZ.MI?interval=1d&period1=1761262264&period2=1778542264&events=history&includeAdjustedClose=true
+2026-05-11 23:31:11,151 [WARNING] SNVD.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SNVD.MI?interval=1d&period1=1761262269&period2=1778542269&events=history&includeAdjustedClose=true
+2026-05-11 23:31:11,460 [WARNING] SCRU.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SCRU.MI?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:11,525 [WARNING] SDS.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SDS.MI?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:11,705 [WARNING] SEMI.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SEMI.DE?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:11,991 [WARNING] SGOL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SGOL.MI?interval=1d&period1=1761262265&period2=1778542265&events=history&includeAdjustedClose=true
+2026-05-11 23:31:12,869 [WARNING] SHLD.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SHLD.DE?interval=1d&period1=1761262266&period2=1778542266&events=history&includeAdjustedClose=true
+2026-05-11 23:31:15,213 [WARNING] SNVD.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/SNVD.MI?interval=1d&period1=1761262269&period2=1778542269&events=history&includeAdjustedClose=true
+2026-05-11 23:31:15,386 [INFO] [434/701] SOLR.MI → BUY2 score:75 H60:0.268 regime:LATERALE
+2026-05-11 23:31:15,464 [INFO] [435/701] SOYB.MI → RANGING score:9 H60:0.388 regime:LATERALE
+2026-05-11 23:31:15,543 [INFO] [436/701] SP1E.MI → BUY3 score:85 H60:0.625 regime:SLANCIO
+2026-05-11 23:31:15,627 [INFO] [437/701] SP5A.MI → BUY3 score:86 H60:0.691 regime:SLANCIO
+2026-05-11 23:31:15,702 [INFO] [438/701] SPP5.DE → SELL score:18 H60:0.457 regime:LATERALE
+2026-05-11 23:31:15,820 [WARNING] SPRT.DE: attempt 1 — 'timestamp'
+2026-05-11 23:31:16,206 [INFO] [440/701] SPXE.MI → BUY3 score:85 H60:0.665 regime:SLANCIO
+2026-05-11 23:31:16,285 [INFO] [441/701] SPYX.DE → BUY3 score:85 H60:0.55 regime:SALITA
+2026-05-11 23:31:16,363 [INFO] [442/701] SRIUC.MI → WATCH score:60 H60:0.64 regime:LATERALE
+2026-05-11 23:31:16,444 [INFO] [444/701] SRSA.MI → RANGING score:66 H60:0.487 regime:LATERALE
+2026-05-11 23:31:16,518 [INFO] [445/701] SRT.DE → SELL score:15 H60:0.32 regime:LATERALE
+2026-05-11 23:31:16,535 [INFO] [446/701] SSIL.MI → SELL score:80 H60:0.417 regime:LATERALE
+2026-05-11 23:31:16,640 [INFO] [447/701] STAW.MI → RANGING score:60 H60:0.393 regime:LATERALE
+2026-05-11 23:31:16,643 [INFO] [448/701] STKX.MI → BUY3 score:85 H60:0.501 regime:SALITA
+2026-05-11 23:31:16,745 [INFO] [449/701] STPX.MI → RANGING score:57 H60:0.583 regime:TRANSIZIONE
+2026-05-11 23:31:16,745 [INFO] [450/701] STNX.MI → SELL score:23 H60:0.57 regime:LATERALE
+2026-05-11 23:31:16,844 [INFO] [451/701] STQX.MI → RANGING score:65 H60:0.503 regime:LATERALE
+2026-05-11 23:31:16,848 [INFO] [452/701] STRX.MI → RANGING score:64 H60:0.489 regime:LATERALE
+2026-05-11 23:31:16,916 [WARNING] STSL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STSL.MI?interval=1d&period1=1761262276&period2=1778542276&events=history&includeAdjustedClose=true
+2026-05-11 23:31:16,932 [INFO] [453/701] STSX.MI → RANGING score:46 H60:0.464 regime:LATERALE
+2026-05-11 23:31:17,009 [INFO] [454/701] STTX.MI → SELL score:26 H60:0.383 regime:TRANSIZIONE
+2026-05-11 23:31:17,091 [INFO] [456/701] STUX.MI → SELL score:18 H60:0.231 regime:LATERALE
+2026-05-11 23:31:17,108 [WARNING] STWD.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWD.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:17,157 [WARNING] STWE.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWE.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:17,520 [WARNING] STWF.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWF.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:17,587 [WARNING] STWH.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWH.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:17,766 [WARNING] STWI.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWI.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:17,888 [WARNING] SPRT.DE: attempt 2 — 'timestamp'
+2026-05-11 23:31:18,103 [WARNING] STWM.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWM.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:18,934 [WARNING] STWR.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWR.DE?interval=1d&period1=1761262278&period2=1778542278&events=history&includeAdjustedClose=true
+2026-05-11 23:31:18,984 [WARNING] STSL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STSL.MI?interval=1d&period1=1761262276&period2=1778542276&events=history&includeAdjustedClose=true
+2026-05-11 23:31:19,167 [WARNING] STWD.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWD.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:19,222 [WARNING] STWE.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWE.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:19,581 [WARNING] STWF.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWF.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:19,646 [WARNING] STWH.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWH.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:19,828 [WARNING] STWI.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWI.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:20,163 [WARNING] STWM.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWM.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:20,994 [WARNING] STWR.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWR.DE?interval=1d&period1=1761262278&period2=1778542278&events=history&includeAdjustedClose=true
+2026-05-11 23:31:21,275 [WARNING] STWS.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWS.DE?interval=1d&period1=1761262281&period2=1778542281&events=history&includeAdjustedClose=true
+2026-05-11 23:31:21,951 [WARNING] SPRT.DE: attempt 3 — 'timestamp'
+2026-05-11 23:31:23,043 [WARNING] STSL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STSL.MI?interval=1d&period1=1761262276&period2=1778542276&events=history&includeAdjustedClose=true
+2026-05-11 23:31:23,228 [WARNING] STWD.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWD.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:23,333 [WARNING] STWE.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWE.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:23,334 [WARNING] STWS.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWS.DE?interval=1d&period1=1761262281&period2=1778542281&events=history&includeAdjustedClose=true
+2026-05-11 23:31:23,647 [WARNING] STWF.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWF.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:23,705 [WARNING] STWH.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWH.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:23,937 [WARNING] STWI.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWI.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:24,228 [WARNING] STWM.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWM.DE?interval=1d&period1=1761262277&period2=1778542277&events=history&includeAdjustedClose=true
+2026-05-11 23:31:25,057 [WARNING] STWR.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWR.DE?interval=1d&period1=1761262278&period2=1778542278&events=history&includeAdjustedClose=true
+2026-05-11 23:31:27,396 [WARNING] STWS.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWS.DE?interval=1d&period1=1761262281&period2=1778542281&events=history&includeAdjustedClose=true
+2026-05-11 23:31:28,061 [WARNING] STWT.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWT.DE?interval=1d&period1=1761262287&period2=1778542287&events=history&includeAdjustedClose=true
+2026-05-11 23:31:29,152 [WARNING] STWU.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWU.DE?interval=1d&period1=1761262289&period2=1778542289&events=history&includeAdjustedClose=true
+2026-05-11 23:31:29,306 [INFO] [466/701] STWX.MI → SELL score:29 H60:0.545 regime:LATERALE
+2026-05-11 23:31:29,383 [INFO] [468/701] STZX.MI → RANGING score:65 H60:0.543 regime:LATERALE
+2026-05-11 23:31:29,413 [INFO] [469/701] SUGA.MI → SELL score:21 H60:0.643 regime:TRANSIZIONE
+2026-05-11 23:31:29,472 [INFO] [470/701] SUSW.MI → BUY3 score:82 H60:0.602 regime:TRANSIZIONE
+2026-05-11 23:31:29,489 [INFO] [471/701] SWDA.MI → BUY3 score:83 H60:0.624 regime:SLANCIO
+2026-05-11 23:31:29,569 [INFO] [472/701] SWRD.MI → BUY3 score:83 H60:0.622 regime:SLANCIO
+2026-05-11 23:31:29,585 [INFO] [473/701] SXLB.MI → RANGING score:47 H60:0.486 regime:LATERALE
+2026-05-11 23:31:29,683 [INFO] [475/701] SXLE.MI → RANGING score:15 H60:0.52 regime:TRANSIZIONE
+2026-05-11 23:31:29,719 [INFO] [477/701] SXLC.MI → BUY1 score:79 H60:0.568 regime:SLANCIO
+2026-05-11 23:31:29,764 [INFO] [478/701] SXLI.MI → RANGING score:71 H60:0.467 regime:LATERALE
+2026-05-11 23:31:29,794 [INFO] [479/701] SXLF.MI → SELL score:24 H60:0.369 regime:LATERALE
+2026-05-11 23:31:29,819 [INFO] [480/701] SXLP.MI → RANGING score:64 H60:0.306 regime:LATERALE
+2026-05-11 23:31:29,863 [INFO] [481/701] SXLU.MI → SELL score:25 H60:0.229 regime:LATERALE
+2026-05-11 23:31:29,873 [INFO] [482/701] SXLK.MI → BUY3 score:85 H60:0.639 regime:SLANCIO
+2026-05-11 23:31:29,888 [INFO] [483/701] SXLV.MI → SELL score:19 H60:0.334 regime:TRANSIZIONE
+2026-05-11 23:31:29,920 [INFO] [484/701] SXLY.MI → BUY3 score:87 H60:0.539 regime:SALITA
+2026-05-11 23:31:29,958 [INFO] [486/701] SXR1.DE → RANGING score:82 H60:0.427 regime:LATERALE
+2026-05-11 23:31:30,003 [INFO] [487/701] SXRP.DE → RANGING score:79 H60:0.499 regime:LATERALE
+2026-05-11 23:31:30,017 [INFO] [488/701] SXRT.DE → RANGING score:78 H60:0.498 regime:LATERALE
+2026-05-11 23:31:30,018 [INFO] [489/701] SXRU.DE → RANGING score:67 H60:0.586 regime:SLANCIO
+2026-05-11 23:31:30,077 [INFO] [490/701] T10A.MI → SELL score:28 H60:0.255 regime:LATERALE
+2026-05-11 23:31:30,104 [INFO] [491/701] SXRW.DE → RANGING score:50 H60:0.465 regime:LATERALE
+2026-05-11 23:31:30,112 [WARNING] TECL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/TECL.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:30,136 [INFO] [492/701] TELE.MI → BUY3 score:91 H60:0.1 regime:LATERALE
+2026-05-11 23:31:30,152 [INFO] [493/701] TDIV.MI → RANGING score:15 H60:0.169 regime:LATERALE
+2026-05-11 23:31:30,181 [WARNING] STWT.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWT.DE?interval=1d&period1=1761262287&period2=1778542287&events=history&includeAdjustedClose=true
+2026-05-11 23:31:30,206 [INFO] [494/701] TIP1A.MI → SELL score:25 H60:0.469 regime:LATERALE
+2026-05-11 23:31:30,221 [INFO] [495/701] TLCO.MI → WATCH score:52 H60:0.118 regime:LATERALE
+2026-05-11 23:31:30,225 [WARNING] TPAY.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/TPAY.DE?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:30,262 [INFO] [497/701] TNO.MI → BUY1 score:81 H60:0.524 regime:SALITA
+2026-05-11 23:31:30,318 [WARNING] TSL2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/TSL2.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:30,320 [INFO] [498/701] TUR.MI → RANGING score:70 H60:0.496 regime:SALITA
+2026-05-11 23:31:30,337 [INFO] [499/701] TRVL.MI → RANGING score:62 H60:0.538 regime:LATERALE
+2026-05-11 23:31:30,354 [INFO] [500/701] U3O8.MI → SELL score:49 H60:0.466 regime:LATERALE
+2026-05-11 23:31:30,419 [WARNING] UCO2.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/UCO2.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:30,441 [INFO] [501/701] UCRP.MI → SELL score:29 H60:0.325 regime:LATERALE
+2026-05-11 23:31:30,458 [INFO] [502/701] UCG.MI → BUY2 score:88 H60:0.505 regime:LATERALE
+2026-05-11 23:31:30,517 [WARNING] UCYB.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/UCYB.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:30,542 [INFO] [503/701] UGAS.MI → SELL score:21 H60:0.49 regime:TRANSIZIONE
+2026-05-11 23:31:30,705 [INFO] [504/701] UKE.MI → SELL score:30 H60:0.511 regime:LATERALE
+2026-05-11 23:31:30,782 [INFO] [505/701] UNIC.MI → BUY3 score:85 H60:0.613 regime:SLANCIO
+2026-05-11 23:31:30,840 [WARNING] URAM.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/URAM.DE?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:31,167 [WARNING] URAN.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/URAN.DE?interval=1d&period1=1761262291&period2=1778542291&events=history&includeAdjustedClose=true
+2026-05-11 23:31:31,263 [WARNING] STWU.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWU.DE?interval=1d&period1=1761262289&period2=1778542289&events=history&includeAdjustedClose=true
+2026-05-11 23:31:32,172 [WARNING] TECL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/TECL.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:32,288 [WARNING] TPAY.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/TPAY.DE?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:32,390 [WARNING] TSL2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/TSL2.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:32,477 [WARNING] UCO2.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/UCO2.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:32,579 [WARNING] UCYB.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/UCYB.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:32,898 [WARNING] URAM.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/URAM.DE?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:33,231 [WARNING] URAN.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/URAN.DE?interval=1d&period1=1761262291&period2=1778542291&events=history&includeAdjustedClose=true
+2026-05-11 23:31:33,475 [INFO] [508/701] URNJ.MI → RANGING score:65 H60:0.467 regime:LATERALE
+2026-05-11 23:31:33,552 [INFO] [509/701] URNU.MI → RANGING score:76 H60:0.445 regime:LATERALE
+2026-05-11 23:31:33,631 [INFO] [510/701] US1.MI → SELL score:26 H60:0.501 regime:LATERALE
+2026-05-11 23:31:33,748 [INFO] [511/701] US10C.MI → SELL score:29 H60:0.34 regime:LATERALE
+2026-05-11 23:31:33,825 [INFO] [512/701] US7.MI → SELL score:29 H60:0.45 regime:TRANSIZIONE
+2026-05-11 23:31:33,916 [INFO] [513/701] USIG.MI → SELL score:29 H60:0.323 regime:LATERALE
+2026-05-11 23:31:33,992 [INFO] [514/701] USTEC.MI → BUY2 score:78 H60:0.684 regime:SLANCIO
+2026-05-11 23:31:34,117 [INFO] [515/701] UTI.MI → RANGING score:9 H60:0.222 regime:LATERALE
+2026-05-11 23:31:34,245 [WARNING] STWT.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWT.DE?interval=1d&period1=1761262287&period2=1778542287&events=history&includeAdjustedClose=true
+2026-05-11 23:31:34,246 [INFO] [516/701] VAGF.MI → RANGING score:66 H60:0.506 regime:LATERALE
+2026-05-11 23:31:34,324 [INFO] [517/701] VCDE.MI → RANGING score:56 H60:0.635 regime:RIBASSO
+2026-05-11 23:31:34,398 [INFO] [518/701] VDCA.MI → SELL score:25 H60:0.484 regime:LATERALE
+2026-05-11 23:31:34,476 [INFO] [519/701] VDCE.MI → RANGING score:70 H60:0.533 regime:LATERALE
+2026-05-11 23:31:34,555 [INFO] [520/701] VDEA.MI → WATCH score:67 H60:0.359 regime:TRANSIZIONE
+2026-05-11 23:31:34,638 [INFO] [521/701] VDST.MI → SELL score:21 H60:0.508 regime:LATERALE
+2026-05-11 23:31:34,714 [INFO] [522/701] VECA.MI → RANGING score:76 H60:0.513 regime:TRANSIZIONE
+2026-05-11 23:31:34,791 [INFO] [523/701] VEGI.MI → WATCH score:81 H60:0.321 regime:LATERALE
+2026-05-11 23:31:34,884 [INFO] [524/701] VEUR.MI → RANGING score:64 H60:0.534 regime:LATERALE
+2026-05-11 23:31:35,073 [INFO] [525/701] VFEM.MI → BUY3 score:93 H60:0.549 regime:SALITA
+2026-05-11 23:31:35,152 [INFO] [526/701] VGEA.MI → RANGING score:67 H60:0.431 regime:LATERALE
+2026-05-11 23:31:35,229 [INFO] [527/701] VGWE.DE → RANGING score:60 H60:0.468 regime:LATERALE
+2026-05-11 23:31:35,288 [WARNING] VHYD.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/VHYD.MI?interval=1d&period1=1761262295&period2=1778542295&events=history&includeAdjustedClose=true
+2026-05-11 23:31:35,324 [WARNING] STWU.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/STWU.DE?interval=1d&period1=1761262289&period2=1778542289&events=history&includeAdjustedClose=true
+2026-05-11 23:31:36,232 [WARNING] TECL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/TECL.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:36,357 [WARNING] TPAY.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/TPAY.DE?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:36,456 [WARNING] TSL2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/TSL2.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:36,538 [WARNING] UCO2.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/UCO2.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:36,638 [WARNING] UCYB.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/UCYB.MI?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:36,959 [WARNING] URAM.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/URAM.DE?interval=1d&period1=1761262290&period2=1778542290&events=history&includeAdjustedClose=true
+2026-05-11 23:31:37,289 [WARNING] URAN.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/URAN.DE?interval=1d&period1=1761262291&period2=1778542291&events=history&includeAdjustedClose=true
+2026-05-11 23:31:37,358 [WARNING] VHYD.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/VHYD.MI?interval=1d&period1=1761262295&period2=1778542295&events=history&includeAdjustedClose=true
+2026-05-11 23:31:40,333 [INFO] [529/701] VJPE.MI → BUY2 score:89 H60:0.438 regime:LATERALE
+2026-05-11 23:31:40,539 [INFO] [530/701] VNGA20.MI → BUY1 score:68 H60:0.569 regime:TRANSIZIONE
+2026-05-11 23:31:40,681 [INFO] [531/701] VNGA40.MI → BUY3 score:91 H60:0.639 regime:SLANCIO
+2026-05-11 23:31:40,758 [INFO] [532/701] VNGA60.MI → BUY3 score:84 H60:0.619 regime:SLANCIO
+2026-05-11 23:31:40,889 [INFO] [533/701] VNGA80.MI → BUY3 score:84 H60:0.65 regime:SLANCIO
+2026-05-11 23:31:40,963 [INFO] [534/701] VOLT.MI → BUY3 score:86 H60:0.579 regime:SLANCIO
+2026-05-11 23:31:41,039 [INFO] [535/701] VPN.MI → BUY3 score:81 H60:0.612 regime:SLANCIO
+2026-05-11 23:31:41,117 [INFO] [536/701] VSCF.MI → RANGING score:63 H60:0.628 regime:TRANSIZIONE
+2026-05-11 23:31:41,195 [INFO] [537/701] VSGF.MI → RANGING score:78 H60:0.56 regime:LATERALE
+2026-05-11 23:31:41,277 [INFO] [538/701] VUAA.MI → BUY3 score:85 H60:0.668 regime:SLANCIO
+2026-05-11 23:31:41,358 [INFO] [540/701] VUCE.MI → SELL score:18 H60:0.324 regime:LATERALE
+2026-05-11 23:31:41,425 [INFO] [541/701] VUKE.MI → RANGING score:26 H60:0.454 regime:LATERALE
+2026-05-11 23:31:41,437 [WARNING] VHYD.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/VHYD.MI?interval=1d&period1=1761262295&period2=1778542295&events=history&includeAdjustedClose=true
+2026-05-11 23:31:41,459 [INFO] [542/701] VUKG.DE → RANGING score:26 H60:0.447 regime:LATERALE
+2026-05-11 23:31:41,537 [INFO] [543/701] VWCE.DE → BUY3 score:85 H60:0.616 regime:SLANCIO
+2026-05-11 23:31:41,583 [INFO] [544/701] VUSA.MI → BUY3 score:86 H60:0.669 regime:SLANCIO
+2026-05-11 23:31:41,619 [INFO] [545/701] WATC.MI → SELL score:20 H60:0.511 regime:LATERALE
+2026-05-11 23:31:41,644 [WARNING] WATL.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WATL.MI?interval=1d&period1=1761262301&period2=1778542301&events=history&includeAdjustedClose=true
+2026-05-11 23:31:41,697 [INFO] [546/701] WATT.MI → RANGING score:57 H60:0.435 regime:LATERALE
+2026-05-11 23:31:41,822 [INFO] [547/701] WBLK.MI → RANGING score:63 H60:0.399 regime:SALITA
+2026-05-11 23:31:41,898 [INFO] [548/701] WCBR.MI → BUY3 score:93 H60:0.312 regime:LATERALE
+2026-05-11 23:31:41,979 [INFO] [549/701] WCLD.MI → BUY3 score:82 H60:0.318 regime:LATERALE
+2026-05-11 23:31:42,056 [INFO] [550/701] WDEF.MI → RANGING score:23 H60:0.204 regime:TRANSIZIONE
+2026-05-11 23:31:42,133 [INFO] [551/701] WDNA.MI → SELL score:41 H60:0.355 regime:LATERALE
+2026-05-11 23:31:42,263 [INFO] [553/701] WEAT.MI → RANGING score:8 H60:0.314 regime:LATERALE
+2026-05-11 23:31:42,319 [INFO] [554/701] WEB3.MI → BUY3 score:89 H60:0.587 regime:LATERALE
+2026-05-11 23:31:42,344 [INFO] [555/701] WENT.MI → RANGING score:65 H60:0.48 regime:SALITA
+2026-05-11 23:31:42,403 [INFO] [557/701] WFIN.MI → RANGING score:37 H60:0.534 regime:LATERALE
+2026-05-11 23:31:42,426 [INFO] [558/701] WGRO.MI → BUY2 score:74 H60:0.648 regime:SLANCIO
+2026-05-11 23:31:42,443 [INFO] [559/701] WHEA.MI → SELL score:19 H60:0.384 regime:TRANSIZIONE
+2026-05-11 23:31:42,505 [INFO] [561/701] WIND.MI → RANGING score:73 H60:0.492 regime:LATERALE
+2026-05-11 23:31:42,515 [WARNING] WLDS.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WLDS.MI?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:42,559 [INFO] [563/701] WMGT.MI → BUY2 score:76 H60:0.543 regime:SALITA
+2026-05-11 23:31:42,564 [INFO] [564/701] WMAT.MI → BUY1 score:74 H60:0.541 regime:LATERALE
+2026-05-11 23:31:42,596 [INFO] [565/701] WMIB.MI → BUY1 score:77 H60:0.548 regime:SALITA
+2026-05-11 23:31:42,659 [WARNING] WNDS.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WNDS.DE?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:42,660 [INFO] [567/701] WNAS.MI → BUY2 score:77 H60:0.662 regime:SLANCIO
+2026-05-11 23:31:42,696 [INFO] [568/701] WNDY.MI → BUY3 score:85 H60:0.343 regime:SALITA
+2026-05-11 23:31:42,715 [INFO] [569/701] WNDE.MI → BUY2 score:79 H60:0.583 regime:SLANCIO
+2026-05-11 23:31:42,731 [INFO] [570/701] WNRG.MI → RANGING score:15 H60:0.538 regime:LATERALE
+2026-05-11 23:31:42,735 [WARNING] WOOD.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WOOD.DE?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:42,793 [INFO] [571/701] WRNW.MI → BUY2 score:78 H60:0.494 regime:SALITA
+2026-05-11 23:31:42,812 [INFO] [572/701] WRTY.MI → RANGING score:62 H60:0.541 regime:SALITA
+2026-05-11 23:31:42,829 [INFO] [573/701] WS5X.MI → RANGING score:66 H60:0.493 regime:LATERALE
+2026-05-11 23:31:42,867 [WARNING] WSML.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WSML.MI?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:42,907 [INFO] [574/701] WSPE.MI → BUY2 score:74 H60:0.638 regime:SLANCIO
+2026-05-11 23:31:42,915 [INFO] [575/701] WTAI.MI → BUY3 score:87 H60:0.596 regime:SLANCIO
+2026-05-11 23:31:43,017 [INFO] [577/701] WTEL.MI → RANGING score:54 H60:0.623 regime:SLANCIO
+2026-05-11 23:31:43,018 [INFO] [578/701] WTEC.MI → BUY3 score:85 H60:0.637 regime:SLANCIO
+2026-05-11 23:31:43,022 [WARNING] WTEW.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WTEW.DE?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:43,121 [INFO] [579/701] WTI.MI → RANGING score:23 H60:0.422 regime:LATERALE
+2026-05-11 23:31:43,122 [INFO] [580/701] WTRE.MI → RANGING score:68 H60:0.563 regime:SLANCIO
+2026-05-11 23:31:43,210 [INFO] [581/701] X13E.MI → RANGING score:50 H60:0.532 regime:SALITA
+2026-05-11 23:31:43,262 [INFO] [582/701] WUTI.MI → SELL score:22 H60:0.16 regime:LATERALE
+2026-05-11 23:31:43,340 [INFO] [584/701] X25E.MI → RANGING score:44 H60:0.252 regime:LATERALE
+2026-05-11 23:31:43,357 [INFO] [585/701] XAGZ.MI → SELL score:55 H60:0.515 regime:LATERALE
+2026-05-11 23:31:43,373 [INFO] [586/701] XAIX.DE → BUY3 score:88 H60:0.602 regime:SLANCIO
+2026-05-11 23:31:43,432 [INFO] [587/701] XAIX.MI → BUY3 score:87 H60:0.602 regime:SLANCIO
+2026-05-11 23:31:43,464 [INFO] [588/701] XBAE.MI → RANGING score:58 H60:0.48 regime:LATERALE
+2026-05-11 23:31:43,520 [INFO] [589/701] XBAS.DE → RANGING score:77 H60:0.33 regime:LATERALE
+2026-05-11 23:31:43,550 [INFO] [590/701] XBLC.MI → RANGING score:65 H60:0.527 regime:LATERALE
+2026-05-11 23:31:43,564 [INFO] [591/701] XBAG.MI → RANGING score:29 H60:0.384 regime:LATERALE
+2026-05-11 23:31:43,605 [INFO] [592/701] XBNK.MI → SELL score:24 H60:0.479 regime:LATERALE
+2026-05-11 23:31:43,688 [INFO] [593/701] XCS3.DE → BUY2 score:82 H60:0.337 regime:LATERALE
+2026-05-11 23:31:43,688 [INFO] [594/701] XCHA.MI → BUY1 score:81 H60:0.531 regime:SALITA
+2026-05-11 23:31:43,703 [INFO] [595/701] XCS4.DE → BUY1 score:99 H60:0.327 regime:LATERALE
+2026-05-11 23:31:43,737 [WARNING] WATL.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WATL.MI?interval=1d&period1=1761262301&period2=1778542301&events=history&includeAdjustedClose=true
+2026-05-11 23:31:43,791 [INFO] [596/701] XCS5.MI → RANGING score:67 H60:0.595 regime:LATERALE
+2026-05-11 23:31:43,825 [INFO] [597/701] XCTE.MI → BUY3 score:88 H60:0.452 regime:SALITA
+2026-05-11 23:31:43,825 [INFO] [598/701] XD9E.DE → BUY3 score:82 H60:0.67 regime:SLANCIO
+2026-05-11 23:31:43,886 [INFO] [599/701] XD9U.DE → BUY3 score:82 H60:0.659 regime:SLANCIO
+2026-05-11 23:31:43,918 [INFO] [600/701] XDAX.MI → RANGING score:69 H60:0.537 regime:LATERALE
+2026-05-11 23:31:43,944 [WARNING] XDAX.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDAX.DE?interval=1d&period1=1761262303&period2=1778542303&events=history&includeAdjustedClose=true
+2026-05-11 23:31:43,979 [INFO] [601/701] XDBC.MI → BUY1 score:89 H60:0.459 regime:TRANSIZIONE
+2026-05-11 23:31:43,999 [INFO] [602/701] XDEB.DE → SELL score:23 H60:0.402 regime:LATERALE
+2026-05-11 23:31:44,055 [INFO] [603/701] XDEE.MI → RANGING score:60 H60:0.636 regime:LATERALE
+2026-05-11 23:31:44,077 [INFO] [604/701] XDEM.DE → BUY3 score:83 H60:0.543 regime:SALITA
+2026-05-11 23:31:44,134 [INFO] [605/701] XDEQ.DE → BUY1 score:81 H60:0.612 regime:SLANCIO
+2026-05-11 23:31:44,168 [INFO] [606/701] XDER.MI → SELL score:52 H60:0.595 regime:LATERALE
+2026-05-11 23:31:44,228 [INFO] [607/701] XDEV.DE → BUY3 score:86 H60:0.541 regime:SALITA
+2026-05-11 23:31:44,260 [INFO] [608/701] XDEV.MI → BUY3 score:86 H60:0.552 regime:SLANCIO
+2026-05-11 23:31:44,317 [INFO] [609/701] XDEW.DE → RANGING score:57 H60:0.545 regime:TRANSIZIONE
+2026-05-11 23:31:44,370 [INFO] [610/701] XDG3.MI → SELL score:24 H60:0.373 regime:TRANSIZIONE
+2026-05-11 23:31:44,442 [INFO] [611/701] XDG6.MI → SELL score:12 H60:0.369 regime:RIBASSO
+2026-05-11 23:31:44,456 [INFO] [612/701] XDG7.MI → WATCH score:63 H60:0.391 regime:SALITA
+2026-05-11 23:31:44,542 [INFO] [613/701] XDGI.DE → RANGING score:56 H60:0.449 regime:LATERALE
+2026-05-11 23:31:44,557 [INFO] [614/701] XDGI.MI → WATCH score:69 H60:0.551 regime:SLANCIO
+2026-05-11 23:31:44,590 [WARNING] WLDS.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WLDS.MI?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:44,643 [INFO] [615/701] XDRE.MI → RANGING score:85 H60:0.603 regime:LATERALE
+2026-05-11 23:31:44,657 [INFO] [616/701] XDJP.DE → BUY3 score:86 H60:0.557 regime:SLANCIO
+2026-05-11 23:31:44,751 [WARNING] WNDS.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WNDS.DE?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:44,766 [INFO] [617/701] XDW0.MI → RANGING score:34 H60:0.537 regime:TRANSIZIONE
+2026-05-11 23:31:44,766 [INFO] [618/701] XDWC.DE → BUY3 score:87 H60:0.541 regime:TRANSIZIONE
+2026-05-11 23:31:44,827 [WARNING] WOOD.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WOOD.DE?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:44,878 [INFO] [619/701] XDWC.MI → BUY3 score:88 H60:0.54 regime:TRANSIZIONE
+2026-05-11 23:31:44,882 [INFO] [620/701] XDWD.DE → BUY3 score:83 H60:0.615 regime:SLANCIO
+2026-05-11 23:31:44,974 [WARNING] WSML.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WSML.MI?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:44,974 [WARNING] XDWE.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDWE.DE?interval=1d&period1=1761262304&period2=1778542304&events=history&includeAdjustedClose=true
+2026-05-11 23:31:44,975 [INFO] [621/701] XDWD.MI → BUY3 score:83 H60:0.62 regime:SLANCIO
+2026-05-11 23:31:45,050 [INFO] [622/701] XDWF.DE → RANGING score:34 H60:0.522 regime:LATERALE
+2026-05-11 23:31:45,096 [WARNING] WTEW.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WTEW.DE?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:45,126 [INFO] [623/701] XDWF.MI → RANGING score:34 H60:0.525 regime:LATERALE
+2026-05-11 23:31:45,200 [INFO] [624/701] XDWH.DE → SELL score:19 H60:0.379 regime:RIBASSO
+2026-05-11 23:31:45,278 [INFO] [625/701] XDWH.MI → SELL score:19 H60:0.381 regime:RIBASSO
+2026-05-11 23:31:45,363 [INFO] [626/701] XDWI.DE → RANGING score:66 H60:0.496 regime:TRANSIZIONE
+2026-05-11 23:31:45,443 [INFO] [627/701] XDWI.MI → RANGING score:67 H60:0.498 regime:TRANSIZIONE
+2026-05-11 23:31:45,512 [WARNING] XDWK.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDWK.DE?interval=1d&period1=1761262305&period2=1778542305&events=history&includeAdjustedClose=true
+2026-05-11 23:31:46,008 [WARNING] XDAX.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDAX.DE?interval=1d&period1=1761262303&period2=1778542303&events=history&includeAdjustedClose=true
+2026-05-11 23:31:47,036 [WARNING] XDWE.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDWE.DE?interval=1d&period1=1761262304&period2=1778542304&events=history&includeAdjustedClose=true
+2026-05-11 23:31:47,517 [INFO] [629/701] XDWM.DE → RANGING score:64 H60:0.527 regime:LATERALE
+2026-05-11 23:31:47,579 [WARNING] XDWK.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDWK.DE?interval=1d&period1=1761262305&period2=1778542305&events=history&includeAdjustedClose=true
+2026-05-11 23:31:47,602 [INFO] [630/701] XDWM.MI → RANGING score:64 H60:0.537 regime:LATERALE
+2026-05-11 23:31:47,661 [WARNING] XDWR.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDWR.DE?interval=1d&period1=1761262307&period2=1778542307&events=history&includeAdjustedClose=true
+2026-05-11 23:31:47,798 [WARNING] WATL.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WATL.MI?interval=1d&period1=1761262301&period2=1778542301&events=history&includeAdjustedClose=true
+2026-05-11 23:31:48,653 [WARNING] WLDS.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WLDS.MI?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:48,814 [WARNING] WNDS.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WNDS.DE?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:48,887 [WARNING] WOOD.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WOOD.DE?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:49,036 [WARNING] WSML.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WSML.MI?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:49,164 [WARNING] WTEW.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/WTEW.DE?interval=1d&period1=1761262302&period2=1778542302&events=history&includeAdjustedClose=true
+2026-05-11 23:31:49,720 [WARNING] XDWR.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDWR.DE?interval=1d&period1=1761262307&period2=1778542307&events=history&includeAdjustedClose=true
+2026-05-11 23:31:50,068 [WARNING] XDAX.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDAX.DE?interval=1d&period1=1761262303&period2=1778542303&events=history&includeAdjustedClose=true
+2026-05-11 23:31:51,104 [WARNING] XDWE.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDWE.DE?interval=1d&period1=1761262304&period2=1778542304&events=history&includeAdjustedClose=true
+2026-05-11 23:31:51,641 [WARNING] XDWK.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDWK.DE?interval=1d&period1=1761262305&period2=1778542305&events=history&includeAdjustedClose=true
+2026-05-11 23:31:53,780 [WARNING] XDWR.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XDWR.DE?interval=1d&period1=1761262307&period2=1778542307&events=history&includeAdjustedClose=true
+2026-05-11 23:31:53,884 [INFO] [632/701] XDWS.DE → RANGING score:58 H60:0.334 regime:LATERALE
+2026-05-11 23:31:53,960 [INFO] [633/701] XDWS.MI → RANGING score:58 H60:0.336 regime:LATERALE
+2026-05-11 23:31:54,037 [INFO] [634/701] XDWT.DE → BUY3 score:85 H60:0.633 regime:SLANCIO
+2026-05-11 23:31:54,117 [INFO] [635/701] XDWT.MI → BUY3 score:85 H60:0.636 regime:SLANCIO
+2026-05-11 23:31:54,205 [INFO] [636/701] XDWU.DE → SELL score:24 H60:0.193 regime:LATERALE
+2026-05-11 23:31:54,286 [INFO] [637/701] XDWU.MI → SELL score:24 H60:0.195 regime:LATERALE
+2026-05-11 23:31:54,364 [INFO] [638/701] XE01.MI → RANGING score:50 H60:0.288 regime:TRANSIZIONE
+2026-05-11 23:31:54,447 [INFO] [639/701] XEON.MI → BUY1 score:10 H60:0.1 regime:SALITA
+2026-05-11 23:31:54,523 [INFO] [640/701] XESC.DE → RANGING score:69 H60:0.491 regime:LATERALE
+2026-05-11 23:31:54,611 [INFO] [641/701] XESD.DE → RANGING score:80 H60:0.461 regime:LATERALE
+2026-05-11 23:31:54,672 [WARNING] XESF.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XESF.DE?interval=1d&period1=1761262314&period2=1778542314&events=history&includeAdjustedClose=true
+2026-05-11 23:31:54,713 [WARNING] XESK.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XESK.DE?interval=1d&period1=1761262314&period2=1778542314&events=history&includeAdjustedClose=true
+2026-05-11 23:31:54,890 [INFO] [645/701] XFNT.MI → BUY3 score:93 H60:0.513 regime:TRANSIZIONE
+2026-05-11 23:31:54,990 [INFO] [646/701] XFVT.MI → BUY2 score:76 H60:0.61 regime:SLANCIO
+2026-05-11 23:31:54,991 [INFO] [647/701] XG11.MI → BUY2 score:66 H60:0.607 regime:SLANCIO
+2026-05-11 23:31:55,083 [INFO] [649/701] XG12.MI → BUY2 score:76 H60:0.592 regime:SLANCIO
+2026-05-11 23:31:55,097 [INFO] [650/701] XGEN.MI → RANGING score:17 H60:0.342 regime:LATERALE
+2026-05-11 23:31:55,130 [INFO] [651/701] XGIN.DE → WATCH score:54 H60:0.294 regime:LATERALE
+2026-05-11 23:31:55,190 [INFO] [653/701] XGLE.DE → RANGING score:79 H60:0.41 regime:LATERALE
+2026-05-11 23:31:55,222 [INFO] [654/701] XGLE.MI → RANGING score:78 H60:0.418 regime:LATERALE
+2026-05-11 23:31:55,225 [INFO] [655/701] XIFE.MI → SELL score:28 H60:0.269 regime:LATERALE
+2026-05-11 23:31:55,236 [WARNING] XJPN.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XJPN.DE?interval=1d&period1=1761262315&period2=1778542315&events=history&includeAdjustedClose=true
+2026-05-11 23:31:55,314 [INFO] [656/701] XLCS.MI → RANGING score:49 H60:0.541 regime:LATERALE
+2026-05-11 23:31:55,332 [INFO] [657/701] XLES.MI → RANGING score:14 H60:0.516 regime:LATERALE
+2026-05-11 23:31:55,350 [INFO] [658/701] XLBS.MI → RANGING score:69 H60:0.473 regime:LATERALE
+2026-05-11 23:31:55,430 [INFO] [659/701] XLFS.MI → SELL score:14 H60:0.372 regime:LATERALE
+2026-05-11 23:31:55,463 [INFO] [660/701] XLKS.MI → BUY3 score:85 H60:0.646 regime:SLANCIO
+2026-05-11 23:31:55,465 [INFO] [661/701] XLIS.MI → RANGING score:71 H60:0.466 regime:LATERALE
+2026-05-11 23:31:55,565 [INFO] [662/701] XLUS.MI → SELL score:23 H60:0.23 regime:LATERALE
+2026-05-11 23:31:55,618 [INFO] [663/701] XLPS.MI → RANGING score:61 H60:0.299 regime:LATERALE
+2026-05-11 23:31:55,621 [INFO] [664/701] XLPE.MI → RANGING score:54 H60:0.569 regime:TRANSIZIONE
+2026-05-11 23:31:55,659 [INFO] [665/701] XLVS.MI → SELL score:29 H60:0.328 regime:RIBASSO
+2026-05-11 23:31:55,715 [INFO] [666/701] XLYS.MI → BUY1 score:74 H60:0.512 regime:LATERALE
+2026-05-11 23:31:55,747 [INFO] [667/701] XMKA.DE → RANGING score:67 H60:0.559 regime:TRANSIZIONE
+2026-05-11 23:31:55,761 [INFO] [668/701] XMME.MI → BUY3 score:86 H60:0.546 regime:SALITA
+2026-05-11 23:31:55,854 [INFO] [669/701] XNNV.MI → BUY2 score:75 H60:0.488 regime:SALITA
+2026-05-11 23:31:55,883 [INFO] [670/701] XNGI.MI → BUY3 score:86 H60:0.665 regime:SLANCIO
+2026-05-11 23:31:55,885 [INFO] [671/701] XMOV.MI → BUY3 score:85 H60:0.59 regime:SLANCIO
+2026-05-11 23:31:55,982 [INFO] [672/701] XREA.DE → SELL score:46 H60:0.575 regime:LATERALE
+2026-05-11 23:31:56,012 [INFO] [673/701] XPQP.DE → RANGING score:69 H60:0.397 regime:TRANSIZIONE
+2026-05-11 23:31:56,012 [INFO] [674/701] XQUI.MI → BUY2 score:74 H60:0.61 regime:TRANSIZIONE
+2026-05-11 23:31:56,093 [WARNING] XSCU.DE: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XSCU.DE?interval=1d&period1=1761262316&period2=1778542316&events=history&includeAdjustedClose=true
+2026-05-11 23:31:56,110 [INFO] [676/701] XRES.MI → RANGING score:74 H60:0.548 regime:LATERALE
+2026-05-11 23:31:56,124 [INFO] [677/701] XS8R.MI → SELL score:35 H60:0.557 regime:SLANCIO
+2026-05-11 23:31:56,149 [INFO] [678/701] XSDX.MI → RANGING score:57 H60:0.538 regime:TRANSIZIONE
+2026-05-11 23:31:56,223 [INFO] [679/701] XSFR.MI → SELL score:16 H60:0.673 regime:SLANCIO
+2026-05-11 23:31:56,226 [INFO] [680/701] XSGI.MI → RANGING score:16 H60:0.112 regime:LATERALE
+2026-05-11 23:31:56,300 [WARNING] XSND.MI: attempt 1 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XSND.MI?interval=1d&period1=1761262316&period2=1778542316&events=history&includeAdjustedClose=true
+2026-05-11 23:31:56,303 [INFO] [681/701] XSMI.MI → RANGING score:56 H60:0.574 regime:LATERALE
+2026-05-11 23:31:56,317 [INFO] [682/701] XSPS.MI → SELL score:93 H60:0.642 regime:RIBASSO
+2026-05-11 23:31:56,393 [INFO] [683/701] XSX6.MI → RANGING score:64 H60:0.534 regime:LATERALE
+2026-05-11 23:31:56,413 [INFO] [684/701] XT01.MI → SELL score:57 H60:0.532 regime:LATERALE
+2026-05-11 23:31:56,473 [INFO] [685/701] XTC5.MI → RANGING score:27 H60:0.602 regime:RIBASSO
+2026-05-11 23:31:56,498 [INFO] [686/701] XTIP.MI → SELL score:26 H60:0.464 regime:LATERALE
+2026-05-11 23:31:56,561 [INFO] [687/701] XUSA.MI → RANGING score:68 H60:0.555 regime:LATERALE
+2026-05-11 23:31:56,585 [INFO] [688/701] XUTC.MI → BUY3 score:85 H60:0.636 regime:SLANCIO
+2026-05-11 23:31:56,639 [INFO] [689/701] XWTS.MI → BUY3 score:81 H60:0.594 regime:SLANCIO
+2026-05-11 23:31:56,665 [INFO] [690/701] XXSC.MI → RANGING score:70 H60:0.606 regime:LATERALE
+2026-05-11 23:31:56,720 [INFO] [691/701] XYP0.MI → WATCH score:77 H60:0.285 regime:TRANSIZIONE
+2026-05-11 23:31:56,731 [WARNING] YODA.MI: attempt 1 — 'timestamp'
+2026-05-11 23:31:56,736 [WARNING] XESF.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XESF.DE?interval=1d&period1=1761262314&period2=1778542314&events=history&includeAdjustedClose=true
+2026-05-11 23:31:56,785 [WARNING] XESK.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XESK.DE?interval=1d&period1=1761262314&period2=1778542314&events=history&includeAdjustedClose=true
+2026-05-11 23:31:56,805 [INFO] [692/701] ZINC.MI → RANGING score:50 H60:0.487 regime:LATERALE
+2026-05-11 23:31:57,297 [WARNING] XJPN.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XJPN.DE?interval=1d&period1=1761262315&period2=1778542315&events=history&includeAdjustedClose=true
+2026-05-11 23:31:58,206 [WARNING] XSCU.DE: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XSCU.DE?interval=1d&period1=1761262316&period2=1778542316&events=history&includeAdjustedClose=true
+2026-05-11 23:31:58,360 [WARNING] XSND.MI: attempt 2 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XSND.MI?interval=1d&period1=1761262316&period2=1778542316&events=history&includeAdjustedClose=true
+2026-05-11 23:31:58,794 [WARNING] YODA.MI: attempt 2 — 'timestamp'
+2026-05-11 23:32:00,798 [WARNING] XESF.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XESF.DE?interval=1d&period1=1761262314&period2=1778542314&events=history&includeAdjustedClose=true
+2026-05-11 23:32:00,853 [WARNING] XESK.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XESK.DE?interval=1d&period1=1761262314&period2=1778542314&events=history&includeAdjustedClose=true
+2026-05-11 23:32:01,358 [WARNING] XJPN.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XJPN.DE?interval=1d&period1=1761262315&period2=1778542315&events=history&includeAdjustedClose=true
+2026-05-11 23:32:02,268 [WARNING] XSCU.DE: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XSCU.DE?interval=1d&period1=1761262316&period2=1778542316&events=history&includeAdjustedClose=true
+2026-05-11 23:32:02,422 [WARNING] XSND.MI: attempt 3 — 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/XSND.MI?interval=1d&period1=1761262316&period2=1778542316&events=history&includeAdjustedClose=true
+2026-05-11 23:32:02,857 [WARNING] YODA.MI: attempt 3 — 'timestamp'
+2026-05-11 23:32:08,889 [INFO] signals.json scritto: 545 ETF
+2026-05-11 23:32:08,903 [INFO] signals_history.json scritto: 545 ticker
+2026-05-11 23:32:08,903 [INFO] === FINE in 201s · OK:545 SKIP:156 ERR:0 ===
+2026-05-11 23:32:08,903 [INFO] Regime distribution: {'LATERALE': 296, 'TRANSIZIONE': 68, 'SLANCIO': 99, 'SALITA': 63, 'RIBASSO': 19}
