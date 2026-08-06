@@ -17,7 +17,7 @@ import requests
 import numpy as np
 
 CONFIG = {
-    "history_days":          200,
+    "history_days":          730,
     "min_candles":           60,
     "max_retries":           3,
     "retry_delay":           2.0,
